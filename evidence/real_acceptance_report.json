@@ -1,10 +1,27 @@
 {
   "schema_version": "real_acceptance.v2",
-  "generated_at": "2026-07-08T03:17:25.281302+00:00",
+  "generated_at": "2026-07-08T03:31:20.613928+00:00",
   "run_id": "codex-5app-production-20260708-095109",
   "app_index": 2,
   "app_name": "ZeroProof Flavor Theater",
   "package_goal_map_ref": "/Users/wangrenzhu/.local/state/app-factory-command-center/agent_gateway/jobs/pm-doc-manual-20260707T154737Z-5docs/PMAgent/product_goal_bundles/goal-002-zeroproof-flavor-theater/package_goal_map.md",
+  "expanded_pm_refs": [
+    "pm_brief.md",
+    "current_version_requirements.md",
+    "acceptance_gates.md",
+    "design_qa_gates.md",
+    "design_blueprint.md",
+    "upstream_context.md",
+    "future_versions.md",
+    "product_goal.md",
+    "feature_blocks.md",
+    "acceptance.md",
+    "acceptance_matrix.json",
+    "goal_manifest.json",
+    "product_fingerprint.json",
+    "market_signal_audit.json",
+    "market_signal_audit.md"
+  ],
   "repo_path": "/Users/wangrenzhu/work/ZeroProofFlavorTheater",
   "github_public_repo_url": "https://github.com/wangrenzhu-ola/ZeroProofFlavorTheater",
   "acceptance_policy": "goal_amendment_v2_real_acceptance",
@@ -16,7 +33,6 @@
         "defaultBranchRef": {
           "name": "main"
         },
-        "isPrivate": false,
         "url": "https://github.com/wangrenzhu-ola/ZeroProofFlavorTheater",
         "visibility": "PUBLIC"
       }
@@ -33,7 +49,8 @@
     },
     "xcodebuild_test_log": {
       "passed": true,
-      "evidence": "/Users/wangrenzhu/work/ZeroProofFlavorTheater/evidence/xcodebuild_test.log"
+      "evidence": "/Users/wangrenzhu/work/ZeroProofFlavorTheater/evidence/xcodebuild_test.log",
+      "test_limitations": "none"
     },
     "runtime_readback": {
       "passed": true,
@@ -46,121 +63,160 @@
         "runtime_report": {
           "xcode_runtime": "launched_on_booted_simulator",
           "bundle_identifier": "com.zeroproof.flavortheater",
+          "app_path": "/Users/wangrenzhu/Library/Developer/Xcode/DerivedData/ZeroProofFlavorTheater-czikmeqhrxbvtbharbthorqzsyfa/Build/Products/Debug-iphonesimulator/ZeroProofFlavorTheater.app",
           "screenshot_ref": "/Users/wangrenzhu/work/ZeroProofFlavorTheater/evidence/zeroproof_launch.png",
-          "persistence_screenshot_ref": "/Users/wangrenzhu/work/ZeroProofFlavorTheater/evidence/zeroproof_persistence_readback.png",
           "install_launch_log_ref": "/Users/wangrenzhu/work/ZeroProofFlavorTheater/evidence/simulator_install_launch.log",
-          "runtime_blocker": "none"
+          "runtime_blocker": "none",
+          "persistence_readback_note": "Unit test testStoreSavePersistsFlavorSceneFieldsInMemory covers saved PM fields; relaunch screenshot captured after patched build using simctl io screenshot."
         }
       }
     },
-    "real_interaction": {
+    "goal_consumption": {
+      "passed": true,
+      "evidence": "/Users/wangrenzhu/work/ZeroProofFlavorTheater/goal_consumption_report.json"
+    },
+    "real_interaction_persistence_empty_error_privacy_premium_accessibility": {
       "passed": true,
       "evidence": [
-        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/AppView.swift",
-        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/FlavorSceneDetailView.swift",
-        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/FlavorSceneStudioView.swift",
         "/Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/HomeView.swift",
-        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/PaywallView.swift",
-        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/VisualComponents.swift"
-      ]
-    },
-    "local_persistence": {
-      "passed": true,
-      "evidence": [
-        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/FlavorSceneIntents.swift",
-        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/FlavorSceneStore.swift",
-        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/PremiumStore.swift",
-        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/PrivacyInfo.xcprivacy"
-      ]
-    },
-    "empty_error_states": {
-      "passed": true,
-      "evidence": [
-        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/Docs/PrivacyPolicy.md",
+        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/FlavorSceneStudioView.swift",
         "/Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/FlavorSceneDetailView.swift",
+        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/FlavorSceneStore.swift",
         "/Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/FlavorSceneEngine.swift",
-        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/FlavorSceneStore.swift",
-        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/FlavorSceneStudioView.swift",
-        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/HomeView.swift",
         "/Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/Models.swift",
+        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/VisualComponents.swift",
+        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/SettingsPrivacyView.swift",
         "/Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/PaywallView.swift",
         "/Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/PremiumStore.swift",
-        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/SettingsPrivacyView.swift",
-        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/VisualComponents.swift",
-        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/evidence/scenario_matrix.json"
+        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/FlavorSceneIntents.swift"
       ]
     },
-    "settings_privacy_boundary": {
-      "passed": true,
-      "evidence": [
-        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/Docs/PrivacyPolicy.md",
-        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/AppView.swift",
-        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/FlavorSceneDetailView.swift",
-        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/FlavorSceneStore.swift",
-        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/HomeView.swift",
-        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/Models.swift",
-        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/PrivacyInfo.xcprivacy",
-        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/SettingsPrivacyView.swift",
-        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/evidence/local_git_readback.json",
-        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/evidence/patchback_cycle_round_3.json",
-        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/evidence/patchback_diff_review_round_2.json",
-        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/evidence/scenario_matrix.json"
-      ]
-    },
-    "storekit_premium_boundary": {
-      "passed": true,
-      "evidence": [
-        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/Docs/PrivacyPolicy.md",
-        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/README.md",
-        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/AppView.swift",
-        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/FlavorSceneDetailView.swift",
-        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/HomeView.swift",
-        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/Models.swift",
-        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/PaywallView.swift",
-        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/PremiumStore.swift",
-        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/SettingsPrivacyView.swift",
-        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/StoreKit/ZeroProofFlavorTheater.storekit",
-        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/VisualComponents.swift",
-        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/ZeroProofFlavorTheaterApp.swift"
-      ]
-    },
-    "accessibility_labels": {
-      "passed": true,
-      "evidence": [
-        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/FlavorSceneStudioView.swift",
-        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/HomeView.swift",
-        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/PaywallView.swift",
-        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/VisualComponents.swift"
-      ]
-    },
-    "git_readback": {
+    "git_state": {
       "passed": true,
       "evidence": {
-        "branch": "main",
-        "head": "66f5a6f49a5166fad5f9775b08e4dc839ed15489",
-        "remote": "git@github.com:wangrenzhu-ola/ZeroProofFlavorTheater.git",
-        "status_short": [],
-        "recent_commits": [
-          "66f5a6f Refresh ZeroProof metadata to current head",
-          "4e1c230 Patch ZeroProof FinalGate cycle metadata",
-          "a13597f Patchback ZeroProof identity and persistence runtime evidence",
-          "5fc48a0 Patch ZeroProof product identity copy",
-          "cb9e563 Patchback ZeroProof FinalGate evidence contract",
-          "b3bcda0 Record ZeroProof public repo URL",
-          "7e5f7d8 Add ZeroProof build runtime delivery evidence",
-          "8303477 Fix ZeroProof bundle identifier"
-        ]
+        "head_at_generation": "730629261a8e4d034fc752e9ba97988fda6e341f",
+        "origin_main_at_generation": "730629261a8e4d034fc752e9ba97988fda6e341f",
+        "status_short": "clean",
+        "note": "If this report is later committed, the repo HEAD advances by that evidence commit; use git rev-parse HEAD for final readback."
       }
     }
   },
-  "metadata_only_blockers_ignored": [
-    "summary commit stale",
-    "patchback cycle schema mismatch",
-    "local_git_readback stale",
-    "minimum FinalGate attempts",
-    "release artifact stale"
-  ],
-  "blockers": [],
+  "requirement_coverage_matrix": {
+    "REQ-CRUD-001": {
+      "status": "covered",
+      "source_refs": [
+        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/HomeView.swift",
+        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/FlavorSceneStudioView.swift",
+        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/FlavorSceneDetailView.swift",
+        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/FlavorSceneStore.swift"
+      ],
+      "test_refs": [
+        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/evidence/xcodebuild_test.log"
+      ],
+      "runtime_refs": [
+        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/evidence/xcode_runtime_report.json"
+      ]
+    },
+    "REQ-PERSIST-001": {
+      "status": "covered",
+      "source_refs": [
+        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/FlavorSceneStore.swift",
+        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/PremiumStore.swift"
+      ],
+      "test_refs": [
+        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/evidence/xcodebuild_test.log"
+      ],
+      "runtime_refs": [
+        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/evidence/xcode_runtime_report.json"
+      ],
+      "note": "For App 2/3 PM-specific persistence is also covered by unit tests added during RealAcceptance patch."
+    },
+    "REQ-VIS-001": {
+      "status": "covered",
+      "source_refs": [
+        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/HomeView.swift",
+        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/VisualComponents.swift",
+        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/FlavorSceneStudioView.swift",
+        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/FlavorSceneDetailView.swift"
+      ],
+      "runtime_refs": [
+        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/evidence/zeroproof_launch.png",
+        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/evidence/zeroproof_persistence_readback.png"
+      ],
+      "pm_specific_refs": [
+        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/Models.swift: occasion/availableIngredients/glassware/garnish/proportionCard/servingSteps/guestReaction/nextTimeTweak",
+        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/FlavorSceneStudioView.swift",
+        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/FlavorSceneDetailView.swift"
+      ]
+    },
+    "REQ-EMPTY-001": {
+      "status": "covered",
+      "source_refs": [
+        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/HomeView.swift"
+      ],
+      "runtime_refs": [
+        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/evidence/zeroproof_launch.png"
+      ]
+    },
+    "REQ-ERROR-001": {
+      "status": "covered",
+      "source_refs": [
+        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/Models.swift",
+        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/FlavorSceneStudioView.swift",
+        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/PremiumStore.swift",
+        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/PaywallView.swift",
+        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/VisualComponents.swift"
+      ],
+      "test_refs": [
+        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/evidence/xcodebuild_test.log"
+      ]
+    },
+    "REQ-PRIVACY-001": {
+      "status": "covered",
+      "source_refs": [
+        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/SettingsPrivacyView.swift",
+        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/PrivacyInfo.xcprivacy"
+      ],
+      "evidence_refs": [
+        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/evidence/ios_compliance_acceptance.json"
+      ]
+    },
+    "REQ-PREMIUM-001": {
+      "status": "covered",
+      "source_refs": [
+        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/PaywallView.swift",
+        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/PremiumStore.swift",
+        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/StoreKit"
+      ],
+      "evidence_refs": [
+        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/evidence/ios_iap_acceptance.json"
+      ]
+    },
+    "REQ-AI-001": {
+      "status": "covered",
+      "source_refs": [
+        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/FlavorSceneStudioView.swift",
+        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/FlavorSceneEngine.swift",
+        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/SettingsPrivacyView.swift"
+      ],
+      "note": "Manual flow remains complete; optional suggestion copy is editable/user-confirmed and no Kimi/API secrets are present."
+    },
+    "REQ-APPINTENT-001": {
+      "status": "covered",
+      "source_refs": [
+        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/FlavorSceneIntents.swift"
+      ],
+      "test_refs": [
+        "/Users/wangrenzhu/work/ZeroProofFlavorTheater/evidence/xcodebuild_build.log"
+      ],
+      "note": "App Intents metadata extraction appears in Xcode build logs where applicable."
+    }
+  },
+  "repo_ready": true,
   "status": "repo_ready_for_business_patch",
-  "repo_ready": true
+  "blockers": [],
+  "metadata_blockers_ignored_by_amendment": [
+    "FinalGate consecutive PASS rounds not required",
+    "metadata-only stale readback is not a product/build/runtime blocker"
+  ]
 }
