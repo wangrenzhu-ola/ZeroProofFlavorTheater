@@ -17,7 +17,7 @@ struct HeroFlavorStage: View {
             }
             ZStack(alignment: .bottom) {
                 RoundedRectangle(cornerRadius: 28).fill(LinearGradient(colors: [cue.color.opacity(0.22), Color(hex: "F7FBFA")], startPoint: .top, endPoint: .bottom))
-                MiniFlavorStage(stage: .plantedBowl, cue: cue).padding(.horizontal, 18).padding(.bottom, 14)
+                FlavorSceneGlass(stage: .citrusSpritz, cue: cue).padding(.horizontal, 18).padding(.bottom, 14)
             }
             .frame(height: 220)
         }
@@ -26,7 +26,7 @@ struct HeroFlavorStage: View {
     }
 }
 
-struct MiniFlavorStage: View {
+struct FlavorSceneGlass: View {
     let stage: FlavorStage
     let cue: FlavorCue
 
