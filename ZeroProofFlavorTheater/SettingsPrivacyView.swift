@@ -14,7 +14,7 @@ struct SettingsPrivacyView: View {
             }
             Section("Premium boundary") {
                 LabeledContent("Premium unlocked", value: premium.isPremiumUnlocked ? "Yes" : "No")
-                Text("The first one-drink Flavor Scene loop is never paywalled. Premium only adds multiple drinks, longer history, export, and themes.")
+                Text("The first one flavor Flavor Scene loop is never paywalled. Premium only adds local hosting boards, longer history, export, and themes.")
             }
             Section("Data controls") {
                 Text("Flavor Scenes, drafts, privacy choices, and entitlement flags are stored on this device. Delete controls are available on each Flavor Scene detail.")
@@ -34,7 +34,7 @@ struct PrivacyBoundaryView: View {
                 Text("Manual rules fully deliver v0. Optional note cleanup is Kimi-ready for a future user-supplied route, but this app contains no API keys and never saves AI text automatically.")
             }
             Section("Review notes") {
-                Text("ZeroProof does not diagnose fish health, promise emergency care, claim sensor data, or publish community content.")
+                Text("ZeroProof does not provide health advice, sobriety claims, live bartender service, or public guest publishing.")
             }
         }
         .navigationTitle("Privacy / AI")

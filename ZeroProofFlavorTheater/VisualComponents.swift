@@ -53,12 +53,12 @@ struct FlavorSceneCard: View {
             HStack { Text(record.title).font(.headline); Spacer(); CueBadge(cue: record.cue) }
             Text(record.cueReason).font(.subheadline).foregroundStyle(.secondary)
             HStack {
-                Label(record.flavorStage.rawValue, systemImage: "water.waves")
+                Label(record.flavorStage.rawValue, systemImage: "wineglass")
                 Label(record.observation.rawValue, systemImage: "eye")
             }.font(.caption).foregroundStyle(.secondary)
         }
         .padding()
-        .background(Color(hex: record.waterCueHex).opacity(0.12), in: RoundedRectangle(cornerRadius: 22))
+        .background(Color(hex: record.flavorCueHex).opacity(0.12), in: RoundedRectangle(cornerRadius: 22))
     }
 }
 

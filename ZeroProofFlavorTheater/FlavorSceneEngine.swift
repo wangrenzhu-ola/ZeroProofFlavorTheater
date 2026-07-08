@@ -1,7 +1,7 @@
 import Foundation
 
 struct FlavorSceneEngine {
-    static func evaluate(_ draft: FlavorSceneDraft, previous: FlavorSceneRecord?) -> (cue: FlavorCue, reason: String, waterHex: String, comparison: String) {
+    static func evaluate(_ draft: FlavorSceneDraft, previous: FlavorSceneRecord?) -> (cue: FlavorCue, reason: String, flavorHex: String, comparison: String) {
         guard draft.readingMode == .tested else {
             return (.watch, "No tasting pass was logged today, so keep the flavor scene visible and retaste before serving.", "D9911A", comparisonCopy(newCue: .watch, previous: previous))
         }

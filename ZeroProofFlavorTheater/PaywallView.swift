@@ -7,8 +7,8 @@ struct PaywallView: View {
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 18) {
-                Text("Premium Drink Theater").font(.largeTitle.bold())
-                Text("Unlock multiple drinks, longer local history, export, and extra stage themes. Your first core Flavor Scene remains free.")
+                Text("Premium Flavor Theater").font(.largeTitle.bold())
+                Text("Unlock local hosting boards, longer local history, export, and extra stage themes. Your first core Flavor Scene remains free.")
                 PremiumFeatureGrid()
                 Text(premium.storeKitMessage).font(.callout).foregroundStyle(.secondary)
                 if let restoreFailure = premium.restoreFailureNote { ErrorBanner(message: restoreFailure) { Task { await premium.restorePurchases() } } }

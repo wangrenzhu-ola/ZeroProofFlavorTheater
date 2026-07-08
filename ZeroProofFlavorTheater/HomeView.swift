@@ -9,7 +9,7 @@ struct HomeView: View {
         ScrollView {
             VStack(alignment: .leading, spacing: 22) {
                 HeroFlavorStage(cue: store.records.first?.cue ?? .watch, title: "ZeroProof", subtitle: store.latestComparison)
-                    .accessibilityLabel("Miniature flavor scene with water cue color and saved Flavor Scene comparison")
+                    .accessibilityLabel("Miniature flavor scene with flavor cue color and saved Flavor Scene comparison")
 
                 if store.records.isEmpty {
                     EmptyFlavorSceneView(create: startFlavorScene)
@@ -51,7 +51,7 @@ private struct EmptyFlavorSceneView: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 14) {
             Text("Start your first Flavor Scene.").font(.title2.bold())
-            Text("Log a flavor scene, water readings, and one living-scene observation. ZeroProof will render Stable, Watch, or Intervene without making veterinary claims.")
+            Text("Log a flavor scene, flavor notes, and one guest reaction memory. ZeroProof will render Balanced, Adjust, or Remix without making health or sobriety claims.")
             MiniCueComparison(newText: "No saved cue yet", previousText: "Comparison appears after your first save")
             Button("Create Flavor Scene", action: create).buttonStyle(.borderedProminent)
         }

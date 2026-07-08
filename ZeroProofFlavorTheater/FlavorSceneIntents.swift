@@ -19,6 +19,6 @@ struct DraftFlavorSceneIntent: AppIntent {
 
 struct ZeroProofShortcuts: AppShortcutsProvider {
     static var appShortcuts: [AppShortcut] {
-        AppShortcut(intent: DraftFlavorSceneIntent(), phrases: ["Draft a \(.applicationName) flavor scene"], shortTitle: "Draft Flavor Scene", systemImageName: "water.waves")
+        AppShortcut(intent: DraftFlavorSceneIntent(), phrases: ["Draft a \(.applicationName) flavor scene"], shortTitle: "Draft Flavor Scene", systemImageName: "wineglass")
     }
 }

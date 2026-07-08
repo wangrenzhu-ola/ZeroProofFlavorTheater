@@ -17,7 +17,7 @@ struct AppView: View {
                         }
                     }
             }
-            .tabItem { Label("Scenes", systemImage: "water.waves") }
+            .tabItem { Label("Scenes", systemImage: "wineglass") }
 
             NavigationStack { SettingsPrivacyView() }
                 .tabItem { Label("Settings", systemImage: "gearshape") }

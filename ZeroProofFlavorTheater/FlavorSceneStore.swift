@@ -54,7 +54,7 @@ final class FlavorSceneStore: ObservableObject {
             careNote: incoming.careNote,
             cue: evaluation.cue,
             cueReason: evaluation.reason,
-            waterCueHex: evaluation.waterHex,
+            flavorCueHex: evaluation.flavorHex,
             createdAt: records.first(where: { $0.id == incoming.id })?.createdAt ?? now,
             updatedAt: now
         )
@@ -77,9 +77,9 @@ final class FlavorSceneStore: ObservableObject {
     }
 
     private func load() {
-        if let data = try? Data(contentsOf: recordsURL), let decoded = try? JSONDecoder.drinkTheater.decode([FlavorSceneRecord].self, from: data) { records = decoded.sorted { $0.updatedAt > $1.updatedAt } }
-        if let data = UserDefaults.standard.data(forKey: draftKey), let decoded = try? JSONDecoder.drinkTheater.decode(FlavorSceneDraft.self, from: data) { draft = decoded }
-        if let data = UserDefaults.standard.data(forKey: privacyKey), let decoded = try? JSONDecoder.drinkTheater.decode(PrivacyChoice.self, from: data) { privacyChoice = decoded }
+        if let data = try? Data(contentsOf: recordsURL), let decoded = try? JSONDecoder.flavorTheater.decode([FlavorSceneRecord].self, from: data) { records = decoded.sorted { $0.updatedAt > $1.updatedAt } }
+        if let data = UserDefaults.standard.data(forKey: draftKey), let decoded = try? JSONDecoder.flavorTheater.decode(FlavorSceneDraft.self, from: data) { draft = decoded }
+        if let data = UserDefaults.standard.data(forKey: privacyKey), let decoded = try? JSONDecoder.flavorTheater.decode(PrivacyChoice.self, from: data) { privacyChoice = decoded }
         if let pending = UserDefaults.standard.string(forKey: "pendingFlavorSceneTitle"), !pending.isEmpty {
             draft.title = pending
             UserDefaults.standard.removeObject(forKey: "pendingFlavorSceneTitle")
@@ -87,16 +87,16 @@ final class FlavorSceneStore: ObservableObject {
     }
 
     private func persistRecords() throws {
-        let data = try JSONEncoder.drinkTheater.encode(records)
+        let data = try JSONEncoder.flavorTheater.encode(records)
         try data.write(to: recordsURL, options: [.atomic])
     }
 
     private func persistDraft() {
-        if let data = try? JSONEncoder.drinkTheater.encode(draft) { UserDefaults.standard.set(data, forKey: draftKey) }
+        if let data = try? JSONEncoder.flavorTheater.encode(draft) { UserDefaults.standard.set(data, forKey: draftKey) }
     }
 
     private func persistPrivacy() {
-        if let data = try? JSONEncoder.drinkTheater.encode(privacyChoice) { UserDefaults.standard.set(data, forKey: privacyKey) }
+        if let data = try? JSONEncoder.flavorTheater.encode(privacyChoice) { UserDefaults.standard.set(data, forKey: privacyKey) }
     }
 }
 
@@ -107,9 +107,9 @@ struct PrivacyChoice: Codable, Hashable {
 }
 
 extension JSONEncoder {
-    static var drinkTheater: JSONEncoder { let encoder = JSONEncoder(); encoder.dateEncodingStrategy = .iso8601; return encoder }
+    static var flavorTheater: JSONEncoder { let encoder = JSONEncoder(); encoder.dateEncodingStrategy = .iso8601; return encoder }
 }
 
 extension JSONDecoder {
-    static var drinkTheater: JSONDecoder { let decoder = JSONDecoder(); decoder.dateDecodingStrategy = .iso8601; return decoder }
+    static var flavorTheater: JSONDecoder { let decoder = JSONDecoder(); decoder.dateDecodingStrategy = .iso8601; return decoder }
 }

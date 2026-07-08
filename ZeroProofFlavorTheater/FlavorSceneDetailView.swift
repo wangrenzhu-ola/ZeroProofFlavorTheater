@@ -17,7 +17,7 @@ struct FlavorSceneDetailView: View {
                     FlavorSceneCard(record: record)
                     MiniCueComparison(newText: "Newest: \(record.cue.rawValue)", previousText: FlavorSceneEngine.comparisonCopy(newCue: record.cue, previous: store.records.dropFirst().first))
                     VStack(alignment: .leading, spacing: 8) {
-                        Text("Care note").font(.headline)
+                        Text("Flavor note").font(.headline)
                         Text(record.careNote.isEmpty ? "No extra note saved." : record.careNote)
                     }
                     HStack {

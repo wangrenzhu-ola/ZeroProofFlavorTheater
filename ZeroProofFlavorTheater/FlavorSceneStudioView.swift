@@ -22,7 +22,7 @@ struct FlavorSceneStudioView: View {
                 TextField("Flavor Scene name", text: $draft.title)
                     .textInputAutocapitalization(.words)
                     .accessibilityLabel("Flavor Scene name")
-                Picker("Drink stage", selection: $draft.flavorStage) {
+                Picker("Flavor scene style", selection: $draft.flavorStage) {
                     ForEach(FlavorStage.allCases) { Text($0.rawValue).tag($0) }
                 }
                 FlavorSceneGlass(stage: draft.flavorStage, cue: previewCue)

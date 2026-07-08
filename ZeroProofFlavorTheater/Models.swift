@@ -13,7 +13,7 @@ struct FlavorSceneRecord: Identifiable, Codable, Hashable {
     var careNote: String
     var cue: FlavorCue
     var cueReason: String
-    var waterCueHex: String
+    var flavorCueHex: String
     var createdAt: Date
     var updatedAt: Date
 }
