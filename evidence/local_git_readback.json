@@ -3,9 +3,9 @@
   "repo_path": "/Users/wangrenzhu/work/ZeroProofFlavorTheater",
   "source_branch": "main",
   "branch": "main",
-  "source_commit": "a13597f24b0bf80eaa20f939f1f53445242c6bfd",
-  "head": "a13597f24b0bf80eaa20f939f1f53445242c6bfd",
-  "local_git_head": "a13597f24b0bf80eaa20f939f1f53445242c6bfd",
+  "source_commit": "4e1c2309442abaded7390c0ac71311f279287c1d",
+  "head": "4e1c2309442abaded7390c0ac71311f279287c1d",
+  "local_git_head": "4e1c2309442abaded7390c0ac71311f279287c1d",
   "remote_url": "git@github.com:wangrenzhu-ola/ZeroProofFlavorTheater.git",
   "status_short": [
     "M evidence/patchback_diff_review_round_2.json",
@@ -56,5 +56,6 @@
     "package_goal_summary.json"
   ],
   "tracked_file_count": 42,
-  "repo_scope": "package_goal_source_only"
+  "repo_scope": "package_goal_source_only",
+  "patch_commit_sha": "4e1c2309442abaded7390c0ac71311f279287c1d"
 }

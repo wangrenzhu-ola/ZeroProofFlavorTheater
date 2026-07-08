@@ -2,7 +2,7 @@
   "schema_version": "appfactory.package_patchback_cycle.v1",
   "round": 3,
   "status": "patched_pending_finalgate",
-  "patch_commit_sha": "a13597f24b0bf80eaa20f939f1f53445242c6bfd",
+  "patch_commit_sha": "4e1c2309442abaded7390c0ac71311f279287c1d",
   "diff_review_ref": "/Users/wangrenzhu/work/ZeroProofFlavorTheater/evidence/patchback_diff_review_round_2.json",
   "changed_source_refs": [
     "ZeroProofFlavorTheater/HomeView.swift",
@@ -16,5 +16,8 @@
     "evidence/zeroproof_launch.png",
     "evidence/zeroproof_persistence_readback.png"
   ],
-  "blockers": []
+  "blockers": [],
+  "head": "4e1c2309442abaded7390c0ac71311f279287c1d",
+  "source_commit": "4e1c2309442abaded7390c0ac71311f279287c1d",
+  "local_git_head": "4e1c2309442abaded7390c0ac71311f279287c1d"
 }

@@ -21,6 +21,7 @@
   "github_public_repo_url": "https://github.com/wangrenzhu-ola/ZeroProofFlavorTheater",
   "xcodeproj_ref": "/Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater.xcodeproj",
   "commit_refs": [
+    "4e1c2309442abaded7390c0ac71311f279287c1d Patch ZeroProof FinalGate cycle metadata",
     "a13597f24b0bf80eaa20f939f1f53445242c6bfd Patchback ZeroProof identity and persistence runtime evidence",
     "5fc48a0ba503bbf411e6b283c23d69582972c439 Patch ZeroProof product identity copy",
     "cb9e563d1364317970098f1b04439d494f0d74f5 Patchback ZeroProof FinalGate evidence contract",
@@ -146,9 +147,9 @@
   ],
   "source_branch": "main",
   "branch": "main",
-  "source_commit": "a13597f24b0bf80eaa20f939f1f53445242c6bfd",
-  "release_commit": "a13597f24b0bf80eaa20f939f1f53445242c6bfd",
-  "local_git_head": "a13597f24b0bf80eaa20f939f1f53445242c6bfd",
+  "source_commit": "4e1c2309442abaded7390c0ac71311f279287c1d",
+  "release_commit": "4e1c2309442abaded7390c0ac71311f279287c1d",
+  "local_git_head": "4e1c2309442abaded7390c0ac71311f279287c1d",
   "persistence_evidence_refs": [
     "/Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/FlavorSceneStore.swift",
     "/Users/wangrenzhu/work/ZeroProofFlavorTheater/evidence/zeroproof_persistence_readback.png",

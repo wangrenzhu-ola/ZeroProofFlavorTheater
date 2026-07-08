@@ -10,6 +10,9 @@
   ],
   "blockers": [],
   "schema_version": "appfactory.patchback_diff_review.v1",
-  "patch_commit_sha": "a13597f24b0bf80eaa20f939f1f53445242c6bfd",
-  "source_branch": "main"
+  "patch_commit_sha": "4e1c2309442abaded7390c0ac71311f279287c1d",
+  "source_branch": "main",
+  "head": "4e1c2309442abaded7390c0ac71311f279287c1d",
+  "source_commit": "4e1c2309442abaded7390c0ac71311f279287c1d",
+  "local_git_head": "4e1c2309442abaded7390c0ac71311f279287c1d"
 }
