@@ -26,15 +26,139 @@ ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeD
 
 ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -version_details
 
-Build description signature: 8bc684fd3558112c9381b6c25f3b4e08
-Build description path: /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/XCBuildData/8bc684fd3558112c9381b6c25f3b4e08.xcbuilddata
+Build description signature: db84bc81fd1abc49472b54ce09a593dc
+Build description path: /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/XCBuildData/db84bc81fd1abc49472b54ce09a593dc.xcbuilddata
 ClangStatCache /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/SDKStatCaches.noindex/iphonesimulator26.5-23F81a-6cfe768891a92b912361537c460fe42b.sdkstatcache
     cd /Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater.xcodeproj
     /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -o /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/SDKStatCaches.noindex/iphonesimulator26.5-23F81a-6cfe768891a92b912361537c460fe42b.sdkstatcache
 
+CreateBuildDirectory /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex
+    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater.xcodeproj
+    builtin-create-build-directory /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex
+
+CreateBuildDirectory /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products
+    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater.xcodeproj
+    builtin-create-build-directory /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products
+
+CreateBuildDirectory /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ExplicitPrecompiledModules
+    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater.xcodeproj
+    builtin-create-build-directory /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ExplicitPrecompiledModules
+
+CreateBuildDirectory /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules
+    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater.xcodeproj
+    builtin-create-build-directory /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules
+
+CreateBuildDirectory /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator
+    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater.xcodeproj
+    builtin-create-build-directory /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator
+
+WriteAuxiliaryFile /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater-7dd3e002bc98112f0afa13f6dad33d85-VFS-iphonesimulator/all-product-headers.yaml
+    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater.xcodeproj
+    write-file /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater-7dd3e002bc98112f0afa13f6dad33d85-VFS-iphonesimulator/all-product-headers.yaml
+
+CreateBuildDirectory /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator
+    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater.xcodeproj
+    builtin-create-build-directory /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator
+
+WriteAuxiliaryFile /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/ZeroProofFlavorTheater.DependencyMetadataFileList (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
+    write-file /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/ZeroProofFlavorTheater.DependencyMetadataFileList
+
+WriteAuxiliaryFile /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/ZeroProofFlavorTheater-generated-files.hmap (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
+    write-file /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/ZeroProofFlavorTheater-generated-files.hmap
+
+WriteAuxiliaryFile /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/ZeroProofFlavorTheater.DependencyStaticMetadataFileList (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
+    write-file /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/ZeroProofFlavorTheater.DependencyStaticMetadataFileList
+
+WriteAuxiliaryFile /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/ZeroProofFlavorTheater-project-headers.hmap (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
+    write-file /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/ZeroProofFlavorTheater-project-headers.hmap
+
+WriteAuxiliaryFile /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/ZeroProofFlavorTheater-own-target-headers.hmap (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
+    write-file /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/ZeroProofFlavorTheater-own-target-headers.hmap
+
+WriteAuxiliaryFile /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/ZeroProofFlavorTheater-all-target-headers.hmap (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
+    write-file /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/ZeroProofFlavorTheater-all-target-headers.hmap
+
+WriteAuxiliaryFile /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/empty-ZeroProofFlavorTheater.plist (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
+    write-file /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/empty-ZeroProofFlavorTheater.plist
+
+WriteAuxiliaryFile /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/ZeroProofFlavorTheater-all-non-framework-target-headers.hmap (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
+    write-file /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/ZeroProofFlavorTheater-all-non-framework-target-headers.hmap
+
+WriteAuxiliaryFile /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/ZeroProofFlavorTheater.hmap (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
+    write-file /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/ZeroProofFlavorTheater.hmap
+
+WriteAuxiliaryFile /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/ZeroProofFlavorTheater-DebugDylibPath-normal-x86_64.txt (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
+    write-file /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/ZeroProofFlavorTheater-DebugDylibPath-normal-x86_64.txt
+
+WriteAuxiliaryFile /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/ZeroProofFlavorTheater-DebugDylibPath-normal-arm64.txt (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
+    write-file /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/ZeroProofFlavorTheater-DebugDylibPath-normal-arm64.txt
+
+WriteAuxiliaryFile /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/ZeroProofFlavorTheater-DebugDylibInstallName-normal-x86_64.txt (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
+    write-file /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/ZeroProofFlavorTheater-DebugDylibInstallName-normal-x86_64.txt
+
+WriteAuxiliaryFile /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/ZeroProofFlavorTheater-DebugDylibInstallName-normal-arm64.txt (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
+    write-file /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/ZeroProofFlavorTheater-DebugDylibInstallName-normal-arm64.txt
+
+WriteAuxiliaryFile /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/x86_64/ZeroProofFlavorTheater.SwiftConstValuesFileList (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
+    write-file /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/x86_64/ZeroProofFlavorTheater.SwiftConstValuesFileList
+
+WriteAuxiliaryFile /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/x86_64/ZeroProofFlavorTheater.SwiftFileList (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
+    write-file /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/x86_64/ZeroProofFlavorTheater.SwiftFileList
+
+WriteAuxiliaryFile /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/x86_64/ZeroProofFlavorTheater.LinkFileList (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
+    write-file /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/x86_64/ZeroProofFlavorTheater.LinkFileList
+
+WriteAuxiliaryFile /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/x86_64/ZeroProofFlavorTheater-OutputFileMap.json (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
+    write-file /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/x86_64/ZeroProofFlavorTheater-OutputFileMap.json
+
+WriteAuxiliaryFile /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/x86_64/ZeroProofFlavorTheater_const_extract_protocols.json (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
+    write-file /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/x86_64/ZeroProofFlavorTheater_const_extract_protocols.json
+
+WriteAuxiliaryFile /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/arm64/ZeroProofFlavorTheater_const_extract_protocols.json (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
+    write-file /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/arm64/ZeroProofFlavorTheater_const_extract_protocols.json
+
+WriteAuxiliaryFile /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/arm64/ZeroProofFlavorTheater.SwiftFileList (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
+    write-file /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/arm64/ZeroProofFlavorTheater.SwiftFileList
+
+WriteAuxiliaryFile /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/arm64/ZeroProofFlavorTheater.SwiftConstValuesFileList (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
+    write-file /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/arm64/ZeroProofFlavorTheater.SwiftConstValuesFileList
+
+WriteAuxiliaryFile /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/arm64/ZeroProofFlavorTheater.LinkFileList (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
+    write-file /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/arm64/ZeroProofFlavorTheater.LinkFileList
+
+WriteAuxiliaryFile /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/arm64/ZeroProofFlavorTheater-OutputFileMap.json (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
+    write-file /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/arm64/ZeroProofFlavorTheater-OutputFileMap.json
+
 WriteAuxiliaryFile /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/DerivedSources/Entitlements-Simulated.plist (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
     cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
     write-file /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/DerivedSources/Entitlements-Simulated.plist
+
+MkDir /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator/ZeroProofFlavorTheater.app (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
+    /bin/mkdir -p /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator/ZeroProofFlavorTheater.app
 
 ProcessProductPackaging "" /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/ZeroProofFlavorTheater.app-Simulated.xcent (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
     cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
@@ -51,17 +175,29 @@ ProcessProductPackagingDER /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/D
     cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
     /usr/bin/derq query -f xml -i /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/ZeroProofFlavorTheater.app-Simulated.xcent -o /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/ZeroProofFlavorTheater.app-Simulated.xcent.der --raw
 
-CpResource /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator/ZeroProofFlavorTheater.app/ZeroProofFlavorTheater.storekit /Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/StoreKit/ZeroProofFlavorTheater.storekit (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
-    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
-    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/StoreKit/ZeroProofFlavorTheater.storekit /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator/ZeroProofFlavorTheater.app
-
 ProcessInfoPlistFile /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator/ZeroProofFlavorTheater.app/Info.plist /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/empty-ZeroProofFlavorTheater.plist (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
     cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
     builtin-infoPlistUtility /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/empty-ZeroProofFlavorTheater.plist -producttype com.apple.product-type.application -genpkginfo /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator/ZeroProofFlavorTheater.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator/ZeroProofFlavorTheater.app/Info.plist
 
+CpResource /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator/ZeroProofFlavorTheater.app/ZeroProofFlavorTheater.storekit /Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/StoreKit/ZeroProofFlavorTheater.storekit (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/StoreKit/ZeroProofFlavorTheater.storekit /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator/ZeroProofFlavorTheater.app
+
 CpResource /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator/ZeroProofFlavorTheater.app/PrivacyInfo.xcprivacy /Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/PrivacyInfo.xcprivacy (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
     cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
     builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/PrivacyInfo.xcprivacy /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator/ZeroProofFlavorTheater.app
+
+Ld /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/x86_64/Binary/__preview.dylib normal x86_64 (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target x86_64-apple-ios26.0-simulator -dynamiclib -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -O0 -L/Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator -F/Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator -install_name @rpath/ZeroProofFlavorTheater.debug.dylib -Xlinker -dead_strip -rdynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -debug_variant -Xlinker -dependency_info -Xlinker /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/x86_64/ZeroProofFlavorTheater_dependency_info.dat -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __entitlements -Xlinker /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/ZeroProofFlavorTheater.app-Simulated.xcent -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __ents_der -Xlinker /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/ZeroProofFlavorTheater.app-Simulated.xcent.der -Xlinker -no_adhoc_codesign -o /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/x86_64/Binary/__preview.dylib
+
+Ld /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/arm64/Binary/__preview.dylib normal arm64 (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-ios26.0-simulator -dynamiclib -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -O0 -L/Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator -F/Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator -install_name @rpath/ZeroProofFlavorTheater.debug.dylib -Xlinker -dead_strip -rdynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -debug_variant -Xlinker -dependency_info -Xlinker /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/arm64/ZeroProofFlavorTheater_dependency_info.dat -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __entitlements -Xlinker /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/ZeroProofFlavorTheater.app-Simulated.xcent -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __ents_der -Xlinker /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/ZeroProofFlavorTheater.app-Simulated.xcent.der -Xlinker -no_adhoc_codesign -o /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/arm64/Binary/__preview.dylib
+
+CreateUniversalBinary /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator/ZeroProofFlavorTheater.app/__preview.dylib normal arm64\ x86_64 (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -create /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/arm64/Binary/__preview.dylib /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/x86_64/Binary/__preview.dylib -output /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator/ZeroProofFlavorTheater.app/__preview.dylib
 
 SwiftDriver ZeroProofFlavorTheater normal x86_64 com.apple.xcode.tools.swift.compiler (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
     cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
@@ -71,128 +207,299 @@ SwiftDriver ZeroProofFlavorTheater normal arm64 com.apple.xcode.tools.swift.comp
     cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
     builtin-SwiftDriver -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name ZeroProofFlavorTheater -Onone @/Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/arm64/ZeroProofFlavorTheater.SwiftFileList -DDEBUG -default-isolation\=MainActor -enable-bare-slash-regex -enable-upcoming-feature DisableOutwardActorInference -enable-upcoming-feature InferSendableFromCaptures -enable-upcoming-feature GlobalActorIsolatedTypesUsability -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature InferIsolatedConformances -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -target arm64-apple-ios26.0-simulator -g -module-cache-path /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex -Xfrontend -serialize-debugging-options -profile-coverage-mapping -profile-generate -enable-testing -index-store-path /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 5 -I /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator -F /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator -emit-localized-strings -emit-localized-strings-path /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/arm64 -c -j10 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/SDKStatCaches.noindex/iphonesimulator26.5-23F81a-6cfe768891a92b912361537c460fe42b.sdkstatcache -output-file-map /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/arm64/ZeroProofFlavorTheater-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex -sdk-module-cache-path /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/arm64/ZeroProofFlavorTheater.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/arm64/ZeroProofFlavorTheater_const_extract_protocols.json -Xcc -iquote -Xcc /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/ZeroProofFlavorTheater-generated-files.hmap -Xcc -I/Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/ZeroProofFlavorTheater-own-target-headers.hmap -Xcc -I/Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/ZeroProofFlavorTheater-all-target-headers.hmap -Xcc -iquote -Xcc /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/ZeroProofFlavorTheater-project-headers.hmap -Xcc -I/Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/DerivedSources-normal/arm64 -Xcc -I/Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/DerivedSources/arm64 -Xcc -I/Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/arm64/ZeroProofFlavorTheater-Swift.h -working-directory /Users/wangrenzhu/work/ZeroProofFlavorTheater -experimental-emit-module-separately -disable-cmo
 
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/_Builtin_stddef-CX2K1MLUYYOEQZHNIHJDUZSQA.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/SwiftShims-3G9LATIEF32XCB96H7QCVRP2Y.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/_StoreKit_SwiftUI-1NJ1J1VLNU0NU3GFHTHRPBPYX.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/_SwiftConcurrencyShims-7F0TPWLEKWESJMJ3WG1KMIG7F.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/_Builtin_float-JVOGU6DHOTPBDYIQQPYHHNMJ.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/_Builtin_stdarg-A6MEOV2VM89HXEG3RMZI2UF6J.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/DeveloperToolsSupport-1CS18N380XJOOQ2B789KEMLTZ.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/ptrcheck-CN0CCRWXL5L9W7I1K0FLYC2MK.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/ptrauth-BWU9IGYXQ84F5CS7N3XC3R1F7.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/_AvailabilityInternal-B702OOXB5JKACXWGGFGLOKFF7.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/ptrauth-6NSETCRFCF1HJFGRGJIJ5UNEI.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/_AvailabilityInternal-3HD5KUU9P04EDKCCHWD4J8YE3.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/_SwiftConcurrencyShims-ADIUJ03P0G50WOKCP95XR78MA.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/SwiftShims-DUREYKPS8DLGYMCVNPZSPV5LQ.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/ptrcheck-8LH4FPPZGQN4TN7U5DL4IES3P.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/_Builtin_stdarg-B37M64LQYNXYEO6EMP61HK93M.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/_Builtin_float-5OEEKKU84FDA8DE0RIWZ4I630.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/_StoreKit_SwiftUI-C59QJCXHSFABR5TP0JLLTVNFG.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/_Builtin_stdbool-C82619ME2ARJ4T5XNSF54999.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/DeveloperToolsSupport-4ATS8QRKG0JVSADOA8C11TQMQ.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/_DarwinFoundation1-C28M29C3202J95NHMFZUTUK3O.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/_Builtin_stddef-7NC0WLNN062LKEGX9U40C9KK7.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/_Builtin_stdbool-C0439GBGR9TVEWNA3EO1BOH7O.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/_DarwinFoundation1-2B2U5O0FJ5HSO8QEV4DKDGRZO.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/_DarwinFoundation2-BF5BHQJYOS8LHWAL3JN14UXLT.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/ExtensionFoundation-5R1AYDGT49WHXC8HPKRN8IVUV.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/_Builtin_limits-7AV0T96E1H9TEBGWXPTGEC5RH.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/_DarwinFoundation2-2O9094XHMESYWFTP9LN3V01R3.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/_Builtin_limits-DN83UGRLFU8T4Y1Q0Z5FGZFO5.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/ExtensionFoundation-EXFWVR5QJX6HT1LIRA28USKGM.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/_Builtin_tgmath-5RJJW7IAIL4JUHBKY4HV3NUOS.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/_Builtin_stdint-3QCLYCN8O6REMST054W3IZ6VM.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/sys_types-5OTK6MNLDRECP91471K2GNF74.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/_Builtin_stdint-A3HIH33RYQUD9C6HP6HYFYX0P.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/_Builtin_tgmath-28N0M8251F1ZZI4ZI0GDGG9XX.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/sys_types-55W8B1BVKLROBEF2W6CABVXNN.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/_Builtin_stdatomic-4EXJUQBJMX5IILZ5N4UGFOIFJ.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/_DarwinFoundation3-7FXSZ8GIOLVM24ZKBK03SOE3R.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/_DarwinFoundation3-4DV9NWRITSOK2R30UHAQQFGBI.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/_Builtin_intrinsics-AKNXO20VNR6OE8459JT0F2UUN.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/_Builtin_stdatomic-BH1NXMF3ACP0A5QWW3FUJKKSY.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/_Builtin_intrinsics-632EVDHW7RZYINQHH3A00WB0N.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/_Builtin_inttypes-7WIATHU26M1XKMJ8T0JILCFLH.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/_Builtin_inttypes-D0M2LVTO2L38J6AINOWZA9ECD.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/Darwin-4IZ3NIK7GMA399Y2KJ7T4L4LU.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/Darwin-4XA19MO89JQZRAXKF0QK57RU9.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/simd-9KV1PLZG9YAI3KWG5NCBW2YY5.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/MachO-1ODSWU6QIQFJNHNTSCO9N4PUW.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/ObjectiveC-6R873CLJG52H5US1GIVVY81ZD.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/ObjectiveC-DHUCJCFRPKHTZU3KTUKJXO1MJ.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/MachO-SSU5ZPIVJQMVPPSCJNNZYCXR.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/simd-EOOHZJA8OUYETJFV4V5GKTTNF.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/os_object-BLT4WXZ72QIRAW3VW57NR5S4W.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/os_object-CQ3DO65ZBA42YAO9CYLDMNNPC.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/os_workgroup-8YEKN3WY7XQTG68Z6SQDJ5SI3.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/os_workgroup-4B6YSKBT9UR6UPSXBU335U6N5.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/Dispatch-2R0XUA47YQYHYCYA5GSYJB3YO.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/Dispatch-4PO1HSYSI0BP5EW5HH3FI9UZ6.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/Spatial-74ONRU2FE3MBG21AAH2K4M40L.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/XPC-2PQM1V6LIU39UKKS8SH73UCCW.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/CoreFoundation-C9PNX4NNZ02O1P0IMNK19JRBH.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/dnssd-29RF4JM64Q3XENM0RZZCJZMJD.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/XPC-9SVPNEUW3VBA090PJJV8G3FNB.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/dnssd-6ACU8CJ5WAN37P60YTTBT728X.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/CoreFoundation-1NC28X4ZCO38DHWMSB91968FN.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/os-5UXDFZPWEHC9K2NEKXBI6T6H9.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/os-8HXPF0052DXFVNT57SF298C2O.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/Security-9FS60LY5ZM4C74JDIXCQBZG5L.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/CFNetwork-AFQ1YMQECWS6XU68N7S4F76LN.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/CoreGraphics-1CKZR0GLCQIPYQ66N6I4C4TON.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/Security-EFSZWBOTOL9KYLMVW9CZQCI5Q.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/CoreGraphics-C9PTDRIZGDEZMTIJMAYAT8K7I.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/CFNetwork-BAOD56YDNQIESH8KWV4YLIVQ5.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/Spatial-4VZF2S1FT2397C4MJSN13XD24.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/CoreText-7M6472PWF2QZ9IOV3M3HRXSM0.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/ImageIO-9BKSDDOFBXM70UGWH9JJL7S1A.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/Foundation-3PIU3CTSMKEBVY8HE49M0RV9U.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/Foundation-EE646TC60WXOD7OWZVTH9TVFH.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/ImageIO-EQ2WZE5XSM6PBBTH0WHAUW691.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/CoreText-94TM9C4BD8ITZUH9Z53WF5N8J.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/BackgroundAssets-EU5QGDG1PKDO8DOOU0K7ZBW0A.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/OSLog-8JRXFRFS2634XT965F7ZNJFCC.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/UserNotifications-5M1CVIT9B4QTEHX20STRWUQVY.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/RelevanceKit-3AQKQE5BGSE4ALJPPAA75RIU3.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/_LocationEssentials-CPSF0YREDE8J1OQ1ECVVU3UGD.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/UIUtilities-5S4RVZMER4GGLG0JCVCMWRQR.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/UniformTypeIdentifiers-CPM8OEF414RUX3W3O39PUU1HS.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/FileProvider-E2V7CQ6P8UO4IA60A85EM7UN9.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/AppIntents-6UDZ1GFRA8BSVJPUGT42LRVPV.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/CoreTransferable-ARGAYPUYN3X3TGJ54QQ5DZVNO.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/OSLog-64VNN59S33CROAZ7PWV9YWZXF.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/Network-44CLE26GVGIJ8EDWCW35MXB37.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/Symbols-7OE7V11Z09DXATMEY5OHWC67I.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/CoreData-A5IXEX1U8XYT10YL9DSNBZ3HF.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/LocalAuthentication-8BMVEGRPAPS3D8SRL4O4TGJ2P.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/CoreLocation-6ORYNDUE9PRNKJS03DSQZEMBU.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/Network-5CWK43XDO7WQ957BOYDOPHF6.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/Symbols-3W3GPEW0I4MSLVYRHZD6FVXXG.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/Accessibility-DWKCNG9R4HE6RWWW2G01R44NX.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/DataDetection-4G60NPIT4PC3ERY5YOXASOP07.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/CoreSpotlight-EKBNJCI71OI8J2TAW31WKZY9M.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/LocalAuthentication-CFHPSV1FTZ0XEG9ARSN0HSU25.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/_LocationEssentials-3BT9GVTPZEC5R9JKMFEAW0ZVE.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/OpenGLES-1AIKI8J75WUTMEM7EMMJETXLQ.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/IOSurface-VESIV8WH6IZA4K9QF0HV2Q60.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/FileProvider-CI5G758XGUF9A3WC4H1OBS937.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/RelevanceKit-BBGJX6A7J5E14HFWN5C9RSLQP.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/BackgroundAssets-4XAIQPRBDSNDYIKAXN7NNB03W.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/UniformTypeIdentifiers-DE18P0N6RZ9RUO76EMBD8D0JQ.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/CoreTransferable-1DIYD3I4RLTCD9M0OMV0674FC.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/UserNotifications-2TCCSYG3JGAWZ6AETE3RTK293.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/AppIntents-DDCCY5SKG7Y3I0PY68GOH8TNM.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/OpenGLES-4BZ06RB9MRPZYXI159XX0D0QW.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/DataDetection-E00VCS26Q7DQU57DC44ZIKIH6.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/CoreLocation-4PX4FZXL0MU1QQGT27DVFC450.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/CoreSpotlight-39HRGL2IBMBLW4YJVX0NL00J.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/UIUtilities-63A1QX2MJ4AXS6GVS8C2GWZXQ.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/Accessibility-5DDMW7TJW0AFXM3F73YC697UD.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/Metal-3WR6BOOGDKQWP8AUDRN9IUM9O.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/IOSurface-4HIU6F163OT8DTJ1NJTBK62H3.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/CoreData-9ZJEM29TAJ94AQA3WYXN0OP2E.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/Metal-5O5KS50SGU3ZFD0IRESJH2YJW.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/CoreVideo-1A0YKU6F8GZNFAVBGMJ2WOUUH.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/CoreImage-ERGKNCUTZBINU9IBLGFBAV5X4.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/QuartzCore-DRQ5FRTKJK7XG5HIHCERJ20O7.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/CoreVideo-9YXMTP1TX68PUJLLPRSBNX92K.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/CoreImage-3RKTHRFD6NW6D6EOL341VTUFK.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/QuartzCore-KQG02486BWMFCGHAF8JCHYQF.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/SwiftUICore-CNPP7LF8XEC9FDR0LG74GY467.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/UIKit-CYWP4KFYT27LN5P4XXM3DARJD.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/SwiftUICore-3OUMCQBR3V2RD03LH5QXRC04A.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/UIKit-DCUWHIBFOAG74WI6N03KU8EG1.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/StoreKit-10SAJAC4N5FXFFZEP0Q1U8FMK.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/SwiftUI-DZGKKI4S45OK8P48ZE8J0IN5J.pcm
+
 SwiftEmitModule normal x86_64 Emitting\ module\ for\ ZeroProofFlavorTheater (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
 
 EmitSwiftModule normal x86_64 (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
     cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
     
 
-SwiftCompile normal x86_64 Compiling\ PremiumStore.swift /Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/PremiumStore.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
-SwiftCompile normal x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/PremiumStore.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
-    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
-    
-
-SwiftEmitModule normal arm64 Emitting\ module\ for\ ZeroProofFlavorTheater (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
-
-EmitSwiftModule normal arm64 (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
-    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
-    
-
-SwiftCompile normal arm64 Compiling\ PremiumStore.swift /Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/PremiumStore.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
-
-SwiftCompile normal arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/PremiumStore.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
-    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
-    
-
-SwiftDriverJobDiscovery normal x86_64 Emitting module for ZeroProofFlavorTheater (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
-
-SwiftDriverJobDiscovery normal arm64 Emitting module for ZeroProofFlavorTheater (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
-
-SwiftDriver\ Compilation\ Requirements ZeroProofFlavorTheater normal x86_64 com.apple.xcode.tools.swift.compiler (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
-    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
-    builtin-Swift-Compilation-Requirements -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name ZeroProofFlavorTheater -Onone @/Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/x86_64/ZeroProofFlavorTheater.SwiftFileList -DDEBUG -default-isolation\=MainActor -enable-bare-slash-regex -enable-upcoming-feature DisableOutwardActorInference -enable-upcoming-feature InferSendableFromCaptures -enable-upcoming-feature GlobalActorIsolatedTypesUsability -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature InferIsolatedConformances -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -target x86_64-apple-ios26.0-simulator -g -module-cache-path /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex -Xfrontend -serialize-debugging-options -profile-coverage-mapping -profile-generate -enable-testing -index-store-path /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 5 -I /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator -F /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator -emit-localized-strings -emit-localized-strings-path /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/x86_64 -c -j10 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/SDKStatCaches.noindex/iphonesimulator26.5-23F81a-6cfe768891a92b912361537c460fe42b.sdkstatcache -output-file-map /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/x86_64/ZeroProofFlavorTheater-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex -sdk-module-cache-path /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/x86_64/ZeroProofFlavorTheater.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/x86_64/ZeroProofFlavorTheater_const_extract_protocols.json -Xcc -iquote -Xcc /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/ZeroProofFlavorTheater-generated-files.hmap -Xcc -I/Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/ZeroProofFlavorTheater-own-target-headers.hmap -Xcc -I/Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/ZeroProofFlavorTheater-all-target-headers.hmap -Xcc -iquote -Xcc /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/ZeroProofFlavorTheater-project-headers.hmap -Xcc -I/Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/DerivedSources-normal/x86_64 -Xcc -I/Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/DerivedSources/x86_64 -Xcc -I/Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/x86_64/ZeroProofFlavorTheater-Swift.h -working-directory /Users/wangrenzhu/work/ZeroProofFlavorTheater -experimental-emit-module-separately -disable-cmo
-
-SwiftDriver\ Compilation\ Requirements ZeroProofFlavorTheater normal arm64 com.apple.xcode.tools.swift.compiler (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
-    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
-    builtin-Swift-Compilation-Requirements -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name ZeroProofFlavorTheater -Onone @/Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/arm64/ZeroProofFlavorTheater.SwiftFileList -DDEBUG -default-isolation\=MainActor -enable-bare-slash-regex -enable-upcoming-feature DisableOutwardActorInference -enable-upcoming-feature InferSendableFromCaptures -enable-upcoming-feature GlobalActorIsolatedTypesUsability -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature InferIsolatedConformances -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -target arm64-apple-ios26.0-simulator -g -module-cache-path /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex -Xfrontend -serialize-debugging-options -profile-coverage-mapping -profile-generate -enable-testing -index-store-path /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 5 -I /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator -F /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator -emit-localized-strings -emit-localized-strings-path /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/arm64 -c -j10 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/SDKStatCaches.noindex/iphonesimulator26.5-23F81a-6cfe768891a92b912361537c460fe42b.sdkstatcache -output-file-map /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/arm64/ZeroProofFlavorTheater-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex -sdk-module-cache-path /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/arm64/ZeroProofFlavorTheater.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/arm64/ZeroProofFlavorTheater_const_extract_protocols.json -Xcc -iquote -Xcc /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/ZeroProofFlavorTheater-generated-files.hmap -Xcc -I/Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/ZeroProofFlavorTheater-own-target-headers.hmap -Xcc -I/Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/ZeroProofFlavorTheater-all-target-headers.hmap -Xcc -iquote -Xcc /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/ZeroProofFlavorTheater-project-headers.hmap -Xcc -I/Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/DerivedSources-normal/arm64 -Xcc -I/Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/DerivedSources/arm64 -Xcc -I/Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/arm64/ZeroProofFlavorTheater-Swift.h -working-directory /Users/wangrenzhu/work/ZeroProofFlavorTheater -experimental-emit-module-separately -disable-cmo
-
-SwiftMergeGeneratedHeaders /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/DerivedSources/ZeroProofFlavorTheater-Swift.h /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/arm64/ZeroProofFlavorTheater-Swift.h /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/x86_64/ZeroProofFlavorTheater-Swift.h (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
-    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
-    builtin-swiftHeaderTool -arch arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/arm64/ZeroProofFlavorTheater-Swift.h -arch x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/x86_64/ZeroProofFlavorTheater-Swift.h -o /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/DerivedSources/ZeroProofFlavorTheater-Swift.h
-
-Copy /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator/ZeroProofFlavorTheater.swiftmodule/arm64-apple-ios-simulator.swiftdoc /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/arm64/ZeroProofFlavorTheater.swiftdoc (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
-    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
-    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/arm64/ZeroProofFlavorTheater.swiftdoc /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator/ZeroProofFlavorTheater.swiftmodule/arm64-apple-ios-simulator.swiftdoc
-
-Copy /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator/ZeroProofFlavorTheater.swiftmodule/arm64-apple-ios-simulator.swiftmodule /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/arm64/ZeroProofFlavorTheater.swiftmodule (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
-    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
-    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/arm64/ZeroProofFlavorTheater.swiftmodule /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator/ZeroProofFlavorTheater.swiftmodule/arm64-apple-ios-simulator.swiftmodule
-
-Copy /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator/ZeroProofFlavorTheater.swiftmodule/x86_64-apple-ios-simulator.swiftmodule /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/x86_64/ZeroProofFlavorTheater.swiftmodule (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
-    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
-    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/x86_64/ZeroProofFlavorTheater.swiftmodule /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator/ZeroProofFlavorTheater.swiftmodule/x86_64-apple-ios-simulator.swiftmodule
-
-Copy /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator/ZeroProofFlavorTheater.swiftmodule/arm64-apple-ios-simulator.abi.json /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/arm64/ZeroProofFlavorTheater.abi.json (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
-    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
-    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/arm64/ZeroProofFlavorTheater.abi.json /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator/ZeroProofFlavorTheater.swiftmodule/arm64-apple-ios-simulator.abi.json
-
-Copy /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator/ZeroProofFlavorTheater.swiftmodule/x86_64-apple-ios-simulator.abi.json /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/x86_64/ZeroProofFlavorTheater.abi.json (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
-    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
-    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/x86_64/ZeroProofFlavorTheater.abi.json /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator/ZeroProofFlavorTheater.swiftmodule/x86_64-apple-ios-simulator.abi.json
-
-Copy /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator/ZeroProofFlavorTheater.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/arm64/ZeroProofFlavorTheater.swiftsourceinfo (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
-    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
-    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/arm64/ZeroProofFlavorTheater.swiftsourceinfo /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator/ZeroProofFlavorTheater.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo
-
-Copy /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator/ZeroProofFlavorTheater.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/x86_64/ZeroProofFlavorTheater.swiftsourceinfo (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
-    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
-    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/x86_64/ZeroProofFlavorTheater.swiftsourceinfo /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator/ZeroProofFlavorTheater.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo
-
-SwiftDriverJobDiscovery normal arm64 Compiling PremiumStore.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
-
-SwiftCompile normal arm64 Compiling\ HomeView.swift /Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/HomeView.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
-
-SwiftCompile normal arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/HomeView.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
-    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
-    
-
-SwiftCompile normal arm64 Compiling\ SettingsPrivacyView.swift /Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/SettingsPrivacyView.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
-
-SwiftCompile normal arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/SettingsPrivacyView.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
-    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
-    
-
-SwiftCompile normal arm64 Compiling\ AppView.swift /Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/AppView.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
-
-SwiftCompile normal arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/AppView.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
-    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
-    
-
-SwiftCompile normal arm64 Compiling\ ZeroProofFlavorTheaterApp.swift /Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/ZeroProofFlavorTheaterApp.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
-
-SwiftCompile normal arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/ZeroProofFlavorTheaterApp.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
-    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
-    
-
-SwiftCompile normal arm64 Compiling\ PaywallView.swift /Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/PaywallView.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
-
-SwiftCompile normal arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/PaywallView.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
-    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
-    
-
-SwiftDriverJobDiscovery normal x86_64 Compiling PremiumStore.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
-
-SwiftCompile normal x86_64 Compiling\ HomeView.swift /Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/HomeView.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
-
-SwiftCompile normal x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/HomeView.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
-    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
-    
-
-SwiftCompile normal x86_64 Compiling\ SettingsPrivacyView.swift /Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/SettingsPrivacyView.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
-
-SwiftCompile normal x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/SettingsPrivacyView.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
-    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
-    
-
 SwiftCompile normal x86_64 Compiling\ ZeroProofFlavorTheaterApp.swift /Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/ZeroProofFlavorTheaterApp.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
-
 SwiftCompile normal x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/ZeroProofFlavorTheaterApp.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
     cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
     
 
-SwiftCompile normal x86_64 Compiling\ AppView.swift /Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/AppView.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+SwiftCompile normal x86_64 Compiling\ Models.swift /Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/Models.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+SwiftCompile normal x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/Models.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
+    
 
-SwiftCompile normal x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/AppView.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+SwiftCompile normal x86_64 Compiling\ VisualComponents.swift /Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/VisualComponents.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+
+SwiftCompile normal x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/VisualComponents.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
+    
+
+SwiftCompile normal x86_64 Compiling\ PremiumStore.swift /Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/PremiumStore.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+
+SwiftCompile normal x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/PremiumStore.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
     cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
     
 
@@ -202,33 +509,229 @@ SwiftCompile normal x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroPro
     cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
     
 
-SwiftDriverJobDiscovery normal arm64 Compiling ZeroProofFlavorTheaterApp.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+SwiftCompile normal x86_64 Compiling\ FlavorSceneStore.swift,\ FlavorSceneStudioView.swift /Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/FlavorSceneStore.swift /Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/FlavorSceneStudioView.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
 
-SwiftDriverJobDiscovery normal arm64 Compiling SettingsPrivacyView.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+SwiftCompile normal x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/FlavorSceneStore.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
+    
+
+SwiftCompile normal x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/FlavorSceneStudioView.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
+    
+
+SwiftCompile normal x86_64 Compiling\ HomeView.swift /Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/HomeView.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+
+SwiftCompile normal x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/HomeView.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
+    
+
+SwiftCompile normal x86_64 Compiling\ AppView.swift,\ FlavorSceneDetailView.swift /Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/AppView.swift /Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/FlavorSceneDetailView.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+
+SwiftCompile normal x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/AppView.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
+    
+
+SwiftCompile normal x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/FlavorSceneDetailView.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
+    
+
+SwiftCompile normal x86_64 Compiling\ FlavorSceneEngine.swift,\ FlavorSceneIntents.swift /Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/FlavorSceneEngine.swift /Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/FlavorSceneIntents.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+
+SwiftCompile normal x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/FlavorSceneEngine.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
+    
+
+SwiftCompile normal x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/FlavorSceneIntents.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
+    
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/SwiftUI-E22FA93KQUYLKLSJG5RM3LW7Z.pcm
+
+SwiftDriverJobDiscovery normal x86_64 Emitting module for ZeroProofFlavorTheater (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+
+SwiftDriver\ Compilation\ Requirements ZeroProofFlavorTheater normal x86_64 com.apple.xcode.tools.swift.compiler (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
+    builtin-Swift-Compilation-Requirements -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name ZeroProofFlavorTheater -Onone @/Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/x86_64/ZeroProofFlavorTheater.SwiftFileList -DDEBUG -default-isolation\=MainActor -enable-bare-slash-regex -enable-upcoming-feature DisableOutwardActorInference -enable-upcoming-feature InferSendableFromCaptures -enable-upcoming-feature GlobalActorIsolatedTypesUsability -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature InferIsolatedConformances -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -target x86_64-apple-ios26.0-simulator -g -module-cache-path /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex -Xfrontend -serialize-debugging-options -profile-coverage-mapping -profile-generate -enable-testing -index-store-path /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 5 -I /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator -F /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator -emit-localized-strings -emit-localized-strings-path /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/x86_64 -c -j10 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/SDKStatCaches.noindex/iphonesimulator26.5-23F81a-6cfe768891a92b912361537c460fe42b.sdkstatcache -output-file-map /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/x86_64/ZeroProofFlavorTheater-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex -sdk-module-cache-path /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/x86_64/ZeroProofFlavorTheater.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/x86_64/ZeroProofFlavorTheater_const_extract_protocols.json -Xcc -iquote -Xcc /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/ZeroProofFlavorTheater-generated-files.hmap -Xcc -I/Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/ZeroProofFlavorTheater-own-target-headers.hmap -Xcc -I/Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/ZeroProofFlavorTheater-all-target-headers.hmap -Xcc -iquote -Xcc /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/ZeroProofFlavorTheater-project-headers.hmap -Xcc -I/Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/DerivedSources-normal/x86_64 -Xcc -I/Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/DerivedSources/x86_64 -Xcc -I/Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/x86_64/ZeroProofFlavorTheater-Swift.h -working-directory /Users/wangrenzhu/work/ZeroProofFlavorTheater -experimental-emit-module-separately -disable-cmo
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/StoreKit-CCP0VQTU12VZ7ILBIQHD6SJT9.pcm
+
+Copy /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator/ZeroProofFlavorTheater.swiftmodule/x86_64-apple-ios-simulator.swiftmodule /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/x86_64/ZeroProofFlavorTheater.swiftmodule (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/x86_64/ZeroProofFlavorTheater.swiftmodule /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator/ZeroProofFlavorTheater.swiftmodule/x86_64-apple-ios-simulator.swiftmodule
+
+Copy /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator/ZeroProofFlavorTheater.swiftmodule/x86_64-apple-ios-simulator.swiftdoc /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/x86_64/ZeroProofFlavorTheater.swiftdoc (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/x86_64/ZeroProofFlavorTheater.swiftdoc /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator/ZeroProofFlavorTheater.swiftmodule/x86_64-apple-ios-simulator.swiftdoc
+
+Copy /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator/ZeroProofFlavorTheater.swiftmodule/x86_64-apple-ios-simulator.abi.json /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/x86_64/ZeroProofFlavorTheater.abi.json (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/x86_64/ZeroProofFlavorTheater.abi.json /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator/ZeroProofFlavorTheater.swiftmodule/x86_64-apple-ios-simulator.abi.json
+
+Copy /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator/ZeroProofFlavorTheater.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/x86_64/ZeroProofFlavorTheater.swiftsourceinfo (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/x86_64/ZeroProofFlavorTheater.swiftsourceinfo /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator/ZeroProofFlavorTheater.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo
+
+SwiftEmitModule normal arm64 Emitting\ module\ for\ ZeroProofFlavorTheater (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+
+EmitSwiftModule normal arm64 (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
+    
+
+SwiftCompile normal arm64 Compiling\ AppView.swift,\ FlavorSceneDetailView.swift /Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/AppView.swift /Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/FlavorSceneDetailView.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+SwiftCompile normal arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/AppView.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
+    
+
+SwiftCompile normal arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/FlavorSceneDetailView.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
+    
+
+SwiftDriverJobDiscovery normal arm64 Emitting module for ZeroProofFlavorTheater (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+
+SwiftDriver\ Compilation\ Requirements ZeroProofFlavorTheater normal arm64 com.apple.xcode.tools.swift.compiler (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
+    builtin-Swift-Compilation-Requirements -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name ZeroProofFlavorTheater -Onone @/Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/arm64/ZeroProofFlavorTheater.SwiftFileList -DDEBUG -default-isolation\=MainActor -enable-bare-slash-regex -enable-upcoming-feature DisableOutwardActorInference -enable-upcoming-feature InferSendableFromCaptures -enable-upcoming-feature GlobalActorIsolatedTypesUsability -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature InferIsolatedConformances -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -target arm64-apple-ios26.0-simulator -g -module-cache-path /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex -Xfrontend -serialize-debugging-options -profile-coverage-mapping -profile-generate -enable-testing -index-store-path /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 5 -I /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator -F /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator -emit-localized-strings -emit-localized-strings-path /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/arm64 -c -j10 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/SDKStatCaches.noindex/iphonesimulator26.5-23F81a-6cfe768891a92b912361537c460fe42b.sdkstatcache -output-file-map /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/arm64/ZeroProofFlavorTheater-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex -sdk-module-cache-path /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/arm64/ZeroProofFlavorTheater.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/arm64/ZeroProofFlavorTheater_const_extract_protocols.json -Xcc -iquote -Xcc /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/ZeroProofFlavorTheater-generated-files.hmap -Xcc -I/Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/ZeroProofFlavorTheater-own-target-headers.hmap -Xcc -I/Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/ZeroProofFlavorTheater-all-target-headers.hmap -Xcc -iquote -Xcc /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/ZeroProofFlavorTheater-project-headers.hmap -Xcc -I/Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/DerivedSources-normal/arm64 -Xcc -I/Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/DerivedSources/arm64 -Xcc -I/Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/arm64/ZeroProofFlavorTheater-Swift.h -working-directory /Users/wangrenzhu/work/ZeroProofFlavorTheater -experimental-emit-module-separately -disable-cmo
+
+SwiftDriverJobDiscovery normal x86_64 Compiling FlavorSceneEngine.swift, FlavorSceneIntents.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+
+SwiftCompile normal arm64 Compiling\ FlavorSceneEngine.swift,\ FlavorSceneIntents.swift /Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/FlavorSceneEngine.swift /Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/FlavorSceneIntents.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+
+SwiftCompile normal arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/FlavorSceneEngine.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
+    
+
+SwiftCompile normal arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/FlavorSceneIntents.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
+    
+
+SwiftMergeGeneratedHeaders /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/DerivedSources/ZeroProofFlavorTheater-Swift.h /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/arm64/ZeroProofFlavorTheater-Swift.h /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/x86_64/ZeroProofFlavorTheater-Swift.h (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
+    builtin-swiftHeaderTool -arch arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/arm64/ZeroProofFlavorTheater-Swift.h -arch x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/x86_64/ZeroProofFlavorTheater-Swift.h -o /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/DerivedSources/ZeroProofFlavorTheater-Swift.h
+
+SwiftDriverJobDiscovery normal x86_64 Compiling AppView.swift, FlavorSceneDetailView.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+
+Copy /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator/ZeroProofFlavorTheater.swiftmodule/arm64-apple-ios-simulator.swiftmodule /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/arm64/ZeroProofFlavorTheater.swiftmodule (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/arm64/ZeroProofFlavorTheater.swiftmodule /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator/ZeroProofFlavorTheater.swiftmodule/arm64-apple-ios-simulator.swiftmodule
+
+Copy /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator/ZeroProofFlavorTheater.swiftmodule/arm64-apple-ios-simulator.swiftdoc /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/arm64/ZeroProofFlavorTheater.swiftdoc (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/arm64/ZeroProofFlavorTheater.swiftdoc /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator/ZeroProofFlavorTheater.swiftmodule/arm64-apple-ios-simulator.swiftdoc
+
+Copy /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator/ZeroProofFlavorTheater.swiftmodule/arm64-apple-ios-simulator.abi.json /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/arm64/ZeroProofFlavorTheater.abi.json (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/arm64/ZeroProofFlavorTheater.abi.json /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator/ZeroProofFlavorTheater.swiftmodule/arm64-apple-ios-simulator.abi.json
+
+Copy /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator/ZeroProofFlavorTheater.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/arm64/ZeroProofFlavorTheater.swiftsourceinfo (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/arm64/ZeroProofFlavorTheater.swiftsourceinfo /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator/ZeroProofFlavorTheater.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo
+
+SwiftCompile normal arm64 Compiling\ FlavorSceneStore.swift,\ FlavorSceneStudioView.swift /Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/FlavorSceneStore.swift /Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/FlavorSceneStudioView.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+
+SwiftCompile normal arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/FlavorSceneStore.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
+    
+
+SwiftCompile normal arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/FlavorSceneStudioView.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
+    
+
+SwiftCompile normal arm64 Compiling\ SettingsPrivacyView.swift /Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/SettingsPrivacyView.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+SwiftCompile normal arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/SettingsPrivacyView.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
+    
+
+SwiftDriverJobDiscovery normal x86_64 Compiling FlavorSceneStore.swift, FlavorSceneStudioView.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+
+SwiftCompile normal arm64 Compiling\ PaywallView.swift /Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/PaywallView.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+SwiftCompile normal arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/PaywallView.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
+    
 
 SwiftDriverJobDiscovery normal x86_64 Compiling ZeroProofFlavorTheaterApp.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
 
-SwiftDriverJobDiscovery normal arm64 Compiling AppView.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+SwiftDriverJobDiscovery normal x86_64 Compiling HomeView.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
 
-SwiftDriverJobDiscovery normal x86_64 Compiling SettingsPrivacyView.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+SwiftCompile normal arm64 Compiling\ ZeroProofFlavorTheaterApp.swift /Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/ZeroProofFlavorTheaterApp.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
 
-SwiftDriverJobDiscovery normal x86_64 Compiling AppView.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+SwiftCompile normal arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/ZeroProofFlavorTheaterApp.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
+    
 
-SwiftDriverJobDiscovery normal arm64 Compiling PaywallView.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+SwiftCompile normal arm64 Compiling\ HomeView.swift /Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/HomeView.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+SwiftCompile normal arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/HomeView.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
+    
 
 SwiftDriverJobDiscovery normal x86_64 Compiling PaywallView.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
 
-SwiftDriverJobDiscovery normal x86_64 Compiling HomeView.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+SwiftCompile normal arm64 Compiling\ PremiumStore.swift /Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/PremiumStore.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+
+SwiftCompile normal arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/PremiumStore.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
+    
+
+SwiftDriverJobDiscovery normal x86_64 Compiling PremiumStore.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+
+SwiftCompile normal x86_64 Compiling\ SettingsPrivacyView.swift /Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/SettingsPrivacyView.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+
+SwiftCompile normal x86_64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/SettingsPrivacyView.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
+    
+
+SwiftDriverJobDiscovery normal x86_64 Compiling VisualComponents.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+
+SwiftCompile normal arm64 Compiling\ VisualComponents.swift /Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/VisualComponents.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+
+SwiftCompile normal arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/VisualComponents.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
+    
+
+SwiftDriverJobDiscovery normal x86_64 Compiling Models.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+
+SwiftCompile normal arm64 Compiling\ Models.swift /Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/Models.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+SwiftCompile normal arm64 /Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater/Models.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
+    
+
+SwiftDriverJobDiscovery normal x86_64 Compiling SettingsPrivacyView.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
 
 SwiftDriver\ Compilation ZeroProofFlavorTheater normal x86_64 com.apple.xcode.tools.swift.compiler (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
     cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
     builtin-Swift-Compilation -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name ZeroProofFlavorTheater -Onone @/Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/x86_64/ZeroProofFlavorTheater.SwiftFileList -DDEBUG -default-isolation\=MainActor -enable-bare-slash-regex -enable-upcoming-feature DisableOutwardActorInference -enable-upcoming-feature InferSendableFromCaptures -enable-upcoming-feature GlobalActorIsolatedTypesUsability -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature InferIsolatedConformances -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -target x86_64-apple-ios26.0-simulator -g -module-cache-path /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex -Xfrontend -serialize-debugging-options -profile-coverage-mapping -profile-generate -enable-testing -index-store-path /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 5 -I /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator -F /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator -emit-localized-strings -emit-localized-strings-path /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/x86_64 -c -j10 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/SDKStatCaches.noindex/iphonesimulator26.5-23F81a-6cfe768891a92b912361537c460fe42b.sdkstatcache -output-file-map /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/x86_64/ZeroProofFlavorTheater-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex -sdk-module-cache-path /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/x86_64/ZeroProofFlavorTheater.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/x86_64/ZeroProofFlavorTheater_const_extract_protocols.json -Xcc -iquote -Xcc /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/ZeroProofFlavorTheater-generated-files.hmap -Xcc -I/Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/ZeroProofFlavorTheater-own-target-headers.hmap -Xcc -I/Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/ZeroProofFlavorTheater-all-target-headers.hmap -Xcc -iquote -Xcc /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/ZeroProofFlavorTheater-project-headers.hmap -Xcc -I/Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/DerivedSources-normal/x86_64 -Xcc -I/Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/DerivedSources/x86_64 -Xcc -I/Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/x86_64/ZeroProofFlavorTheater-Swift.h -working-directory /Users/wangrenzhu/work/ZeroProofFlavorTheater -experimental-emit-module-separately -disable-cmo
 
+SwiftDriverJobDiscovery normal arm64 Compiling FlavorSceneEngine.swift, FlavorSceneIntents.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+
 Ld /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/x86_64/Binary/ZeroProofFlavorTheater.debug.dylib normal x86_64 (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
     cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
     /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target x86_64-apple-ios26.0-simulator -dynamiclib -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -O0 -L/Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator -L/Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator -F/Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator -F/Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator -filelist /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/x86_64/ZeroProofFlavorTheater.LinkFileList -install_name @rpath/ZeroProofFlavorTheater.debug.dylib -Xlinker -rpath -Xlinker @executable_path/Frameworks -Xlinker -dead_strip -Xlinker -object_path_lto -Xlinker /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/x86_64/ZeroProofFlavorTheater_lto.o -rdynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -debug_variant -Xlinker -dependency_info -Xlinker /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/x86_64/ZeroProofFlavorTheater_dependency_info.dat -fobjc-link-runtime -fprofile-instr-generate -L/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator -L/usr/lib/swift -Xlinker -add_ast_path -Xlinker /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/x86_64/ZeroProofFlavorTheater.swiftmodule @/Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/x86_64/ZeroProofFlavorTheater-linker-args.resp -Xlinker -alias -Xlinker _main -Xlinker ___debug_main_executable_dylib_entry_point -Xlinker -no_adhoc_codesign -o /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/x86_64/Binary/ZeroProofFlavorTheater.debug.dylib
 
+ConstructStubExecutorLinkFileList /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/ZeroProofFlavorTheater-ExecutorLinkFileList-normal-x86_64.txt (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
+    construct-stub-executor-link-file-list /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/x86_64/Binary/ZeroProofFlavorTheater.debug.dylib /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libPreviewsJITStubExecutor_no_swift_entry_point.a /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libPreviewsJITStubExecutor.a --output /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/ZeroProofFlavorTheater-ExecutorLinkFileList-normal-x86_64.txt
+note: Using stub executor library with Swift entry point. (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+
+Ld /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/x86_64/Binary/ZeroProofFlavorTheater normal x86_64 (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target x86_64-apple-ios26.0-simulator -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -O0 -L/Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator -F/Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator -Xlinker -rpath -Xlinker @executable_path -Xlinker -rpath -Xlinker @executable_path/Frameworks -rdynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -debug_variant -e ___debug_blank_executor_main -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __debug_dylib -Xlinker /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/ZeroProofFlavorTheater-DebugDylibPath-normal-x86_64.txt -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __debug_instlnm -Xlinker /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/ZeroProofFlavorTheater-DebugDylibInstallName-normal-x86_64.txt -Xlinker -filelist -Xlinker /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/ZeroProofFlavorTheater-ExecutorLinkFileList-normal-x86_64.txt -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __entitlements -Xlinker /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/ZeroProofFlavorTheater.app-Simulated.xcent -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __ents_der -Xlinker /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/ZeroProofFlavorTheater.app-Simulated.xcent.der /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/x86_64/Binary/ZeroProofFlavorTheater.debug.dylib -Xlinker -no_adhoc_codesign -o /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/x86_64/Binary/ZeroProofFlavorTheater
+
+SwiftDriverJobDiscovery normal arm64 Compiling FlavorSceneStore.swift, FlavorSceneStudioView.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+
+SwiftDriverJobDiscovery normal arm64 Compiling AppView.swift, FlavorSceneDetailView.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+
+SwiftDriverJobDiscovery normal arm64 Compiling ZeroProofFlavorTheaterApp.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+
+SwiftDriverJobDiscovery normal arm64 Compiling PremiumStore.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+
+SwiftDriverJobDiscovery normal arm64 Compiling SettingsPrivacyView.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+
+SwiftDriverJobDiscovery normal arm64 Compiling PaywallView.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+
+SwiftDriverJobDiscovery normal arm64 Compiling VisualComponents.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+
 SwiftDriverJobDiscovery normal arm64 Compiling HomeView.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+
+SwiftDriverJobDiscovery normal arm64 Compiling Models.swift (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
 
 SwiftDriver\ Compilation ZeroProofFlavorTheater normal arm64 com.apple.xcode.tools.swift.compiler (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
     cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
@@ -247,18 +750,9 @@ CreateUniversalBinary /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/Derive
     cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
     /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -create /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/arm64/Binary/ZeroProofFlavorTheater.debug.dylib /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/x86_64/Binary/ZeroProofFlavorTheater.debug.dylib -output /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator/ZeroProofFlavorTheater.app/ZeroProofFlavorTheater.debug.dylib
 
-ConstructStubExecutorLinkFileList /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/ZeroProofFlavorTheater-ExecutorLinkFileList-normal-x86_64.txt (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
-    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
-    construct-stub-executor-link-file-list /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/x86_64/Binary/ZeroProofFlavorTheater.debug.dylib /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libPreviewsJITStubExecutor_no_swift_entry_point.a /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libPreviewsJITStubExecutor.a --output /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/ZeroProofFlavorTheater-ExecutorLinkFileList-normal-x86_64.txt
-note: Using stub executor library with Swift entry point. (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
-
 Ld /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/arm64/Binary/ZeroProofFlavorTheater normal arm64 (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
     cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
     /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-ios26.0-simulator -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -O0 -L/Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator -F/Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator -Xlinker -rpath -Xlinker @executable_path -Xlinker -rpath -Xlinker @executable_path/Frameworks -rdynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -debug_variant -e ___debug_blank_executor_main -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __debug_dylib -Xlinker /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/ZeroProofFlavorTheater-DebugDylibPath-normal-arm64.txt -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __debug_instlnm -Xlinker /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/ZeroProofFlavorTheater-DebugDylibInstallName-normal-arm64.txt -Xlinker -filelist -Xlinker /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/ZeroProofFlavorTheater-ExecutorLinkFileList-normal-arm64.txt -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __entitlements -Xlinker /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/ZeroProofFlavorTheater.app-Simulated.xcent -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __ents_der -Xlinker /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/ZeroProofFlavorTheater.app-Simulated.xcent.der /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/arm64/Binary/ZeroProofFlavorTheater.debug.dylib -Xlinker -no_adhoc_codesign -o /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/arm64/Binary/ZeroProofFlavorTheater
-
-Ld /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/x86_64/Binary/ZeroProofFlavorTheater normal x86_64 (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
-    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
-    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target x86_64-apple-ios26.0-simulator -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -O0 -L/Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator -F/Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator -Xlinker -rpath -Xlinker @executable_path -Xlinker -rpath -Xlinker @executable_path/Frameworks -rdynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -debug_variant -e ___debug_blank_executor_main -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __debug_dylib -Xlinker /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/ZeroProofFlavorTheater-DebugDylibPath-normal-x86_64.txt -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __debug_instlnm -Xlinker /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/ZeroProofFlavorTheater-DebugDylibInstallName-normal-x86_64.txt -Xlinker -filelist -Xlinker /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/ZeroProofFlavorTheater-ExecutorLinkFileList-normal-x86_64.txt -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __entitlements -Xlinker /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/ZeroProofFlavorTheater.app-Simulated.xcent -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __ents_der -Xlinker /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/ZeroProofFlavorTheater.app-Simulated.xcent.der /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/x86_64/Binary/ZeroProofFlavorTheater.debug.dylib -Xlinker -no_adhoc_codesign -o /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/x86_64/Binary/ZeroProofFlavorTheater
 
 CreateUniversalBinary /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator/ZeroProofFlavorTheater.app/ZeroProofFlavorTheater normal arm64\ x86_64 (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
     cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
@@ -271,20 +765,20 @@ CopySwiftLibs /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Bu
 ExtractAppIntentsMetadata (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
     cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
     /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/appintentsmetadataprocessor --toolchain-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain --module-name ZeroProofFlavorTheater --sdk-root /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk --xcode-version 17F113 --platform-family iOS --deployment-target 26.0 --bundle-identifier com.zeroproof.flavortheater --output /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator/ZeroProofFlavorTheater.app --target-triple arm64-apple-ios26.0-simulator --target-triple x86_64-apple-ios26.0-simulator --binary-file /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator/ZeroProofFlavorTheater.app/ZeroProofFlavorTheater --dependency-file /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/arm64/ZeroProofFlavorTheater_dependency_info.dat --dependency-file /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/x86_64/ZeroProofFlavorTheater_dependency_info.dat --stringsdata-file /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/arm64/ExtractedAppShortcutsMetadata.stringsdata --stringsdata-file /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/x86_64/ExtractedAppShortcutsMetadata.stringsdata --source-file-list /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/arm64/ZeroProofFlavorTheater.SwiftFileList --source-file-list /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/x86_64/ZeroProofFlavorTheater.SwiftFileList --metadata-file-list /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/ZeroProofFlavorTheater.DependencyMetadataFileList --static-metadata-file-list /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/ZeroProofFlavorTheater.DependencyStaticMetadataFileList --swift-const-vals-list /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/arm64/ZeroProofFlavorTheater.SwiftConstValuesFileList --swift-const-vals-list /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/Objects-normal/x86_64/ZeroProofFlavorTheater.SwiftConstValuesFileList --compile-time-extraction --deployment-aware-processing --validate-assistant-intents --no-app-shortcuts-localization
-2026-07-08 10:35:57.281 appintentsmetadataprocessor[92240:244678888] Starting appintentsmetadataprocessor export
-2026-07-08 10:35:57.291 appintentsmetadataprocessor[92240:244678888] Writing Metadata.appintents
-2026-07-08 10:35:57.291 appintentsmetadataprocessor[92240:244678888] Metadata root: /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator/ZeroProofFlavorTheater.app/Metadata.appintents
+2026-07-08 10:43:59.905 appintentsmetadataprocessor[23832:244850062] Starting appintentsmetadataprocessor export
+2026-07-08 10:43:59.913 appintentsmetadataprocessor[23832:244850062] Writing Metadata.appintents
+2026-07-08 10:43:59.913 appintentsmetadataprocessor[23832:244850062] Metadata root: /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator/ZeroProofFlavorTheater.app/Metadata.appintents
 
 AppIntentsSSUTraining (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
     cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
     /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/appintentsnltrainingprocessor --infoplist-path /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator/ZeroProofFlavorTheater.app/Info.plist --temp-dir-path /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/ssu --bundle-id com.zeroproof.flavortheater --product-path /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator/ZeroProofFlavorTheater.app --extracted-metadata-path /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator/ZeroProofFlavorTheater.app/Metadata.appintents --metadata-file-list /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/ZeroProofFlavorTheater.DependencyMetadataFileList --source-file /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator/ZeroProofFlavorTheater.app/Info.plist --archive-ssu-assets
-2026-07-08 10:35:57.307 appintentsnltrainingprocessor[92241:244678891] Parsing options for appintentsnltrainingprocessor
-2026-07-08 10:35:57.307 appintentsnltrainingprocessor[92241:244678891] Starting AppIntents SSU YAML Generation
-2026-07-08 10:35:57.313 appintentsnltrainingprocessor[92241:244678891] Training 'Draft a ${+applicationName} flavor scene' for en
-2026-07-08 10:35:57.313 appintentsnltrainingprocessor[92241:244678891] Training Negative Phrases '' for en
-2026-07-08 10:35:57.313 appintentsnltrainingprocessor[92241:244678891] Application name 'ZeroProof Flavor Theater' for en
-2026-07-08 10:35:57.317 appintentsnltrainingprocessor[92241:244678891] Generated AppIntents SSU YAML files in file:///Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/ssu/
-2026-07-08 10:35:57.318 appintentsnltrainingprocessor[92241:244678891] Copied AppIntents SSU YAML files to file:///Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator/ZeroProofFlavorTheater.app/Metadata.appintents/
+2026-07-08 10:43:59.928 appintentsnltrainingprocessor[23833:244850065] Parsing options for appintentsnltrainingprocessor
+2026-07-08 10:43:59.929 appintentsnltrainingprocessor[23833:244850065] Starting AppIntents SSU YAML Generation
+2026-07-08 10:43:59.935 appintentsnltrainingprocessor[23833:244850065] Training 'Draft a ${+applicationName} flavor scene' for en
+2026-07-08 10:43:59.935 appintentsnltrainingprocessor[23833:244850065] Training Negative Phrases '' for en
+2026-07-08 10:43:59.935 appintentsnltrainingprocessor[23833:244850065] Application name 'ZeroProof Flavor Theater' for en
+2026-07-08 10:43:59.939 appintentsnltrainingprocessor[23833:244850065] Generated AppIntents SSU YAML files in file:///Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Intermediates.noindex/ZeroProofFlavorTheater.build/Debug-iphonesimulator/ZeroProofFlavorTheater.build/ssu/
+2026-07-08 10:43:59.939 appintentsnltrainingprocessor[23833:244850065] Copied AppIntents SSU YAML files to file:///Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator/ZeroProofFlavorTheater.app/Metadata.appintents/
 Archiving all locales.
 [------------------------------------------------------------] 0% archiving en[🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢] 100% archived en[🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢] 100% archived 1 locales/Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator/ZeroProofFlavorTheater.app/Metadata.appintents/nlu
 /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator/ZeroProofFlavorTheater.app/Metadata.appintents/nlu/107ba5f506e011f0adf92b9809ab7362.version
@@ -303,7 +797,6 @@ CodeSign /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/P
     Signing Identity:     "Sign to Run Locally"
     
     /usr/bin/codesign --force --sign - --timestamp\=none --generate-entitlement-der /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator/ZeroProofFlavorTheater.app/__preview.dylib
-/Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator/ZeroProofFlavorTheater.app/__preview.dylib: replacing existing signature
 
 CodeSign /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator/ZeroProofFlavorTheater.app (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
     cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
@@ -312,9 +805,17 @@ CodeSign /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/P
     
     /usr/bin/codesign --force --sign - --timestamp\=none --generate-entitlement-der /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator/ZeroProofFlavorTheater.app
 
+RegisterExecutionPolicyException /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator/ZeroProofFlavorTheater.app (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
+    builtin-RegisterExecutionPolicyException /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator/ZeroProofFlavorTheater.app
+
 Validate /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator/ZeroProofFlavorTheater.app (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
     cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
     builtin-validationUtility /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator/ZeroProofFlavorTheater.app -shallow-bundle -infoplist-subpath Info.plist
+
+Touch /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator/ZeroProofFlavorTheater.app (in target 'ZeroProofFlavorTheater' from project 'ZeroProofFlavorTheater')
+    cd /Users/wangrenzhu/work/ZeroProofFlavorTheater
+    /usr/bin/touch -c /Users/wangrenzhu/work/ZeroProofFlavorTheater/build/DerivedData/Build/Products/Debug-iphonesimulator/ZeroProofFlavorTheater.app
 
 ** BUILD SUCCEEDED **
 

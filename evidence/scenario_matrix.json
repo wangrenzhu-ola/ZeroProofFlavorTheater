@@ -1,0 +1,120 @@
+{
+  "schema_version": "appfactory.scenario_matrix.v1",
+  "app_name": "ZeroProof Flavor Theater",
+  "required_requirement_ids": [
+    "REQ-CRUD-001",
+    "REQ-PERSIST-001",
+    "REQ-VIS-001",
+    "REQ-EMPTY-001",
+    "REQ-ERROR-001",
+    "REQ-PRIVACY-001",
+    "REQ-PREMIUM-001",
+    "REQ-AI-001",
+    "REQ-APPINTENT-001"
+  ],
+  "scenarios": [
+    {
+      "scenario_id": "create-flavor-scene",
+      "requirement_ids": [
+        "REQ-CRUD-001"
+      ],
+      "path": "Home > New Flavor Scene",
+      "status": "PASS_SOURCE_TEST",
+      "evidence_refs": [
+        "ZeroProofFlavorTheater/HomeView.swift",
+        "ZeroProofFlavorTheater/FlavorSceneStudioView.swift",
+        "evidence/xcodebuild_test.log"
+      ]
+    },
+    {
+      "scenario_id": "edit-delete-flavor-scene",
+      "requirement_ids": [
+        "REQ-CRUD-001"
+      ],
+      "path": "Flavor Scene Detail > Edit/Delete",
+      "status": "PASS_SOURCE",
+      "evidence_refs": [
+        "ZeroProofFlavorTheater/FlavorSceneDetailView.swift",
+        "ZeroProofFlavorTheater/FlavorSceneStore.swift"
+      ]
+    },
+    {
+      "scenario_id": "persistence-local-json",
+      "requirement_ids": [
+        "REQ-PERSIST-001"
+      ],
+      "path": "save relaunch local store",
+      "status": "PASS_SOURCE_TEST",
+      "evidence_refs": [
+        "ZeroProofFlavorTheater/FlavorSceneStore.swift",
+        "evidence/xcodebuild_test.log"
+      ]
+    },
+    {
+      "scenario_id": "visual-empty-saved",
+      "requirement_ids": [
+        "REQ-VIS-001",
+        "REQ-EMPTY-001"
+      ],
+      "path": "Home empty/runtime screenshot",
+      "status": "PASS_RUNTIME_VISUAL",
+      "evidence_refs": [
+        "evidence/zeroproof_launch.png",
+        "ZeroProofFlavorTheater/VisualComponents.swift"
+      ]
+    },
+    {
+      "scenario_id": "error-recovery",
+      "requirement_ids": [
+        "REQ-ERROR-001"
+      ],
+      "path": "save failure/paywall restore fallback",
+      "status": "PASS_SOURCE",
+      "evidence_refs": [
+        "ZeroProofFlavorTheater/FlavorSceneStudioView.swift",
+        "ZeroProofFlavorTheater/PaywallView.swift",
+        "ZeroProofFlavorTheater/PremiumStore.swift"
+      ]
+    },
+    {
+      "scenario_id": "privacy-ai-boundary",
+      "requirement_ids": [
+        "REQ-PRIVACY-001",
+        "REQ-AI-001"
+      ],
+      "path": "Privacy/AI boundary",
+      "status": "PASS_SOURCE_COMPLIANCE",
+      "evidence_refs": [
+        "ZeroProofFlavorTheater/SettingsPrivacyView.swift",
+        "Docs/PrivacyPolicy.md",
+        "evidence/ios_compliance_acceptance.json"
+      ]
+    },
+    {
+      "scenario_id": "premium-storekit",
+      "requirement_ids": [
+        "REQ-PREMIUM-001"
+      ],
+      "path": "Paywall/restore",
+      "status": "PASS_SOURCE_STOREKIT",
+      "evidence_refs": [
+        "ZeroProofFlavorTheater/PaywallView.swift",
+        "ZeroProofFlavorTheater/PremiumStore.swift",
+        "ZeroProofFlavorTheater/StoreKit/ZeroProofFlavorTheater.storekit",
+        "evidence/ios_iap_acceptance.json"
+      ]
+    },
+    {
+      "scenario_id": "app-intent-draft",
+      "requirement_ids": [
+        "REQ-APPINTENT-001"
+      ],
+      "path": "Shortcuts editable draft only",
+      "status": "PASS_COMPILE_SOURCE",
+      "evidence_refs": [
+        "ZeroProofFlavorTheater/FlavorSceneIntents.swift",
+        "evidence/xcodebuild_build.log"
+      ]
+    }
+  ]
+}

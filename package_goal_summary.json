@@ -1,7 +1,7 @@
 {
   "schema_version": "appfactory.package_goal_summary.v1",
   "app_name": "ZeroProof Flavor Theater",
-  "worker_status": "github_pushed_pending_finalgate",
+  "worker_status": "patched_pending_finalgate",
   "applied_skill_ids": [
     "build-ios-apps",
     "test-xcode",
@@ -21,6 +21,8 @@
   "github_public_repo_url": "https://github.com/wangrenzhu-ola/ZeroProofFlavorTheater",
   "xcodeproj_ref": "/Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater.xcodeproj",
   "commit_refs": [
+    "b3bcda0b79c2991cb39285ab5b9e9fddb29ee974 Record ZeroProof public repo URL",
+    "7e5f7d8e1c4dda44e1609e015e3fe1f719ca78a7 Add ZeroProof build runtime delivery evidence",
     "8303477bdf18dbd62a7d4a56d2fe5c8d86f8f890 Fix ZeroProof bundle identifier",
     "8455df46056530e8c71b7ea8c63a5a1c2bcf563a Fix ZeroProof studio visual component",
     "8b3e4effe42a7ea29b725f1edf26e176aef428f3 Fix ZeroProof visual stage references",
@@ -49,5 +51,83 @@
   "sample_data_only": false,
   "static_ui_only": false,
   "known_gaps": [],
-  "blockers": []
+  "blockers": [],
+  "build_artifact_ref": "/Users/wangrenzhu/work/codex-goal-runs/codex-5app-production-20260708-095109/artifacts/app_2_zeroproof/ZeroProofFlavorTheater-source-delivery.zip",
+  "artifact_sha256": "0ae397d517427ee677f73c0024204db6de1f1964c619204058102291d56662cd",
+  "ultraqa_report_ref": "/Users/wangrenzhu/work/ZeroProofFlavorTheater/evidence/ultraqa_report.json",
+  "ultraqa_status": "PASS",
+  "scenario_matrix_ref": "/Users/wangrenzhu/work/ZeroProofFlavorTheater/evidence/scenario_matrix.json",
+  "fresh_runtime_evidence_refs": [
+    "/Users/wangrenzhu/work/ZeroProofFlavorTheater/evidence/simulator_install_launch.log",
+    "/Users/wangrenzhu/work/ZeroProofFlavorTheater/evidence/zeroproof_launch.png"
+  ],
+  "local_git_readback_ref": "/Users/wangrenzhu/work/ZeroProofFlavorTheater/evidence/local_git_readback.json",
+  "visual_asset_evidence_refs": [
+    "/Users/wangrenzhu/work/ZeroProofFlavorTheater/evidence/visual_asset_evidence.json",
+    "/Users/wangrenzhu/work/ZeroProofFlavorTheater/evidence/zeroproof_launch.png"
+  ],
+  "visual_runtime_evidence_refs": [
+    "/Users/wangrenzhu/work/ZeroProofFlavorTheater/evidence/zeroproof_launch.png"
+  ],
+  "implemented_requirement_ids": [
+    "REQ-CRUD-001",
+    "REQ-PERSIST-001",
+    "REQ-VIS-001",
+    "REQ-EMPTY-001",
+    "REQ-ERROR-001",
+    "REQ-PRIVACY-001",
+    "REQ-PREMIUM-001",
+    "REQ-AI-001",
+    "REQ-APPINTENT-001"
+  ],
+  "unresolved_requirement_ids": [],
+  "requirement_evidence": {
+    "REQ-CRUD-001": [
+      "/Users/wangrenzhu/work/ZeroProofFlavorTheater/evidence/scenario_matrix.json"
+    ],
+    "REQ-PERSIST-001": [
+      "/Users/wangrenzhu/work/ZeroProofFlavorTheater/evidence/scenario_matrix.json"
+    ],
+    "REQ-VIS-001": [
+      "/Users/wangrenzhu/work/ZeroProofFlavorTheater/evidence/scenario_matrix.json"
+    ],
+    "REQ-EMPTY-001": [
+      "/Users/wangrenzhu/work/ZeroProofFlavorTheater/evidence/scenario_matrix.json"
+    ],
+    "REQ-ERROR-001": [
+      "/Users/wangrenzhu/work/ZeroProofFlavorTheater/evidence/scenario_matrix.json"
+    ],
+    "REQ-PRIVACY-001": [
+      "/Users/wangrenzhu/work/ZeroProofFlavorTheater/evidence/scenario_matrix.json"
+    ],
+    "REQ-PREMIUM-001": [
+      "/Users/wangrenzhu/work/ZeroProofFlavorTheater/evidence/scenario_matrix.json"
+    ],
+    "REQ-AI-001": [
+      "/Users/wangrenzhu/work/ZeroProofFlavorTheater/evidence/scenario_matrix.json"
+    ],
+    "REQ-APPINTENT-001": [
+      "/Users/wangrenzhu/work/ZeroProofFlavorTheater/evidence/scenario_matrix.json"
+    ]
+  },
+  "requirement_runtime_evidence": {
+    "REQ-CRUD-001": [
+      "/Users/wangrenzhu/work/ZeroProofFlavorTheater/evidence/xcodebuild_test.log"
+    ],
+    "REQ-PERSIST-001": [
+      "/Users/wangrenzhu/work/ZeroProofFlavorTheater/evidence/xcodebuild_test.log"
+    ],
+    "REQ-VIS-001": [
+      "/Users/wangrenzhu/work/ZeroProofFlavorTheater/evidence/zeroproof_launch.png"
+    ],
+    "REQ-EMPTY-001": [
+      "/Users/wangrenzhu/work/ZeroProofFlavorTheater/evidence/zeroproof_launch.png"
+    ]
+  },
+  "ios_app_intents_evidence_refs": [
+    "/Users/wangrenzhu/work/ZeroProofFlavorTheater/evidence/ios_app_intents_acceptance.json"
+  ],
+  "product_goal_bundle_ref": "/Users/wangrenzhu/.local/state/app-factory-command-center/agent_gateway/jobs/pm-doc-manual-20260707T154737Z-5docs/PMAgent/product_goal_bundles/goal-002-zeroproof-flavor-theater",
+  "contract_consumption_report_ref": "/Users/wangrenzhu/work/ZeroProofFlavorTheater/goal_consumption_report.json",
+  "final_gate_run_count": 2
 }

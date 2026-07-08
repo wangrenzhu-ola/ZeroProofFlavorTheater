@@ -1,0 +1,25 @@
+{
+  "schema_version": "appfactory.ultraqa.report.v1",
+  "run_id": "codex-5app-production-20260708-095109-app2-ultraqa",
+  "app_name": "ZeroProof Flavor Theater",
+  "status": "PASS",
+  "ultraqa_status": "PASS",
+  "scenario_matrix_ref": "/Users/wangrenzhu/work/ZeroProofFlavorTheater/evidence/scenario_matrix.json",
+  "scenario_count": 8,
+  "requirements_covered": [
+    "REQ-CRUD-001",
+    "REQ-PERSIST-001",
+    "REQ-VIS-001",
+    "REQ-EMPTY-001",
+    "REQ-ERROR-001",
+    "REQ-PRIVACY-001",
+    "REQ-PREMIUM-001",
+    "REQ-AI-001",
+    "REQ-APPINTENT-001"
+  ],
+  "fresh_runtime_evidence_refs": [
+    "/Users/wangrenzhu/work/ZeroProofFlavorTheater/evidence/simulator_install_launch.log",
+    "/Users/wangrenzhu/work/ZeroProofFlavorTheater/evidence/zeroproof_launch.png"
+  ],
+  "blockers": []
+}
