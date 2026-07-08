@@ -1,0 +1,7 @@
+{
+  "skill": "ios-iap-acceptance",
+  "status": "source_and_smoke_pass",
+  "model": "premium_unlock",
+  "product_id": "com.zeroproof.flavortheater.premium.unlock",
+  "blocker": "none"
+}

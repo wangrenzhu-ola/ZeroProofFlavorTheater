@@ -1,0 +1,6 @@
+{
+  "skill": "ios-compliance-acceptance",
+  "status": "passed_static_readback",
+  "permissions": "no camera/photo/microphone/location/ATT",
+  "blocker": "none"
+}
