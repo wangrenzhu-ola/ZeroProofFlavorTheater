@@ -4,7 +4,7 @@ import Combine
 
 @MainActor
 final class PremiumStore: ObservableObject {
-    static let premiumProductID = "com.zeroproof.carescenes.premium.unlock"
+    static let premiumProductID = "com.zeroproof.flavortheater.premium.unlock"
 
     @Published var products: [Product] = []
     @Published var isPremiumUnlocked: Bool { didSet { UserDefaults.standard.set(isPremiumUnlocked, forKey: premiumKey) } }

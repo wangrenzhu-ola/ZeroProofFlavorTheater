@@ -2,7 +2,7 @@
   "app_name": "ZeroProof Flavor Theater",
   "platform": "iOS native SwiftUI",
   "xcodeproj": "ZeroProofFlavorTheater.xcodeproj",
-  "bundle_id": "com.zeroproof.carescenes",
+  "bundle_id": "com.zeroproof.flavortheater",
   "storekit_config": "ZeroProofFlavorTheater/StoreKit/ZeroProofFlavorTheater.storekit",
   "privacy_manifest": "ZeroProofFlavorTheater/PrivacyInfo.xcprivacy"
 }

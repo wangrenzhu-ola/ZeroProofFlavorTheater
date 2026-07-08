@@ -1,5 +1,5 @@
 {
-  "identifier" : "com.zeroproof.carescenes.storekit.local",
+  "identifier" : "com.zeroproof.flavortheater.storekit.local",
   "nonRenewingSubscriptions" : [],
   "products" : [
     {
@@ -13,7 +13,7 @@
           "locale" : "en_US"
         }
       ],
-      "productID" : "com.zeroproof.carescenes.premium.unlock",
+      "productID" : "com.zeroproof.flavortheater.premium.unlock",
       "referenceName" : "ZeroProof Premium Unlock",
       "type" : "NonConsumable"
     }
