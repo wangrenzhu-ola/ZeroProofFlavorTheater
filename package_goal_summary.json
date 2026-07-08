@@ -1,7 +1,7 @@
 {
   "schema_version": "appfactory.package_goal_summary.v1",
   "app_name": "ZeroProof Flavor Theater",
-  "worker_status": "build_runtime_pass_pending_github_finalgate",
+  "worker_status": "github_pushed_pending_finalgate",
   "applied_skill_ids": [
     "build-ios-apps",
     "test-xcode",
@@ -17,8 +17,8 @@
   ],
   "package_goal_map_ref": "/Users/wangrenzhu/.local/state/app-factory-command-center/agent_gateway/jobs/pm-doc-manual-20260707T154737Z-5docs/PMAgent/product_goal_bundles/goal-002-zeroproof-flavor-theater/package_goal_map.md",
   "repo_path": "/Users/wangrenzhu/work/ZeroProofFlavorTheater",
-  "repo_url": null,
-  "github_public_repo_url": null,
+  "repo_url": "https://github.com/wangrenzhu-ola/ZeroProofFlavorTheater",
+  "github_public_repo_url": "https://github.com/wangrenzhu-ola/ZeroProofFlavorTheater",
   "xcodeproj_ref": "/Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater.xcodeproj",
   "commit_refs": [
     "8303477bdf18dbd62a7d4a56d2fe5c8d86f8f890 Fix ZeroProof bundle identifier",
