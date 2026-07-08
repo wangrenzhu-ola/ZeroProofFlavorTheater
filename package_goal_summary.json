@@ -1,7 +1,7 @@
 {
   "schema_version": "appfactory.package_goal_summary.v1",
   "app_name": "ZeroProof Flavor Theater",
-  "worker_status": "patchback_round3_pending_finalgate",
+  "worker_status": "repo_ready_for_business_patch",
   "applied_skill_ids": [
     "build-ios-apps",
     "test-xcode",
@@ -157,5 +157,8 @@
   ],
   "patchback_cycles": [
     "/Users/wangrenzhu/work/ZeroProofFlavorTheater/evidence/patchback_cycle_round_3.json"
-  ]
+  ],
+  "real_acceptance_report_ref": "/Users/wangrenzhu/work/ZeroProofFlavorTheater/evidence/real_acceptance_report.json",
+  "real_acceptance_status": "repo_ready_for_business_patch",
+  "finalgate_required_by_current_amendment": false
 }
