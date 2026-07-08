@@ -50,6 +50,22 @@ enum ObservationType: String, CaseIterable, Codable, Identifiable, Hashable {
     var id: String { rawValue }
 }
 
+
+enum FlavorCue: String, CaseIterable, Codable, Identifiable, Hashable {
+    case stable = "Balanced"
+    case watch = "Adjust"
+    case intervene = "Remix"
+
+    var id: String { rawValue }
+    var color: Color {
+        switch self {
+        case .stable: return Color(hex: "2FA872")
+        case .watch: return Color(hex: "D9911A")
+        case .intervene: return Color(hex: "D9534F")
+        }
+    }
+}
+
 struct FlavorSceneDraft: Codable, Hashable {
     var id: UUID?
     var title: String
@@ -68,9 +84,9 @@ struct FlavorSceneDraft: Codable, Hashable {
         title: "",
         flavorStage: .citrusSpritz,
         readingMode: .tested,
-        sweetness: 7.2,
-        tartness: 0.0,
-        bitterness: 15.0,
+        sweetness: 5.0,
+        tartness: 4.0,
+        bitterness: 2.0,
         observation: .guestLoved,
         careNote: "",
         lastGeneratedCue: nil,
