@@ -5,8 +5,8 @@ struct FlavorSceneEngine {
         guard draft.readingMode == .tested else {
             return (.watch, "No tasting pass was logged today, so keep the flavor scene visible and retaste before serving.", "D9911A", comparisonCopy(newCue: .watch, previous: previous))
         }
-        if draft.sweetness >= 8 || draft.tartness <= 1 || draft.bitterness >= 8 || draft.observation == .needsBite {
-            return (.intervene, "One flavor balance is outside the hosting-safe band; adjust the next pour and avoid health claims.", "D9534F", comparisonCopy(newCue: .intervene, previous: previous))
+        if draft.availableIngredients.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty || draft.proportionCard.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty || draft.sweetness >= 8 || draft.tartness <= 1 || draft.bitterness >= 8 || draft.observation == .needsBite {
+            return (.intervene, "One flavor balance, ingredient list, or proportion card needs a safer remix before serving.", "D9534F", comparisonCopy(newCue: .intervene, previous: previous))
         }
         if draft.sweetness >= 7 || draft.observation == .tooSweet || draft.observation == .flatFinish || draft.observation == .garnishMissing {
             return (.watch, "The drink is usable, but this note deserves a small adjustment before the next guest pour.", "D9911A", comparisonCopy(newCue: .watch, previous: previous))
@@ -21,6 +21,6 @@ struct FlavorSceneEngine {
     }
 
     static func aiFallbackNote(for draft: FlavorSceneDraft) -> String {
-        "Manual cue: \(draft.observation.rawValue.lowercased()) in a \(draft.flavorStage.rawValue.lowercased()). Keep this note editable; no AI route or save happens without your confirmation."
+        "Manual cue: \(draft.occasion) uses \(draft.availableIngredients) in a \(draft.glassware.rawValue.lowercased()) with \(draft.garnish.rawValue.lowercased()). Keep proportions editable; no AI route or save happens without your confirmation."
     }
 }

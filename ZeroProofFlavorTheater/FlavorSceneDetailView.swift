@@ -17,7 +17,14 @@ struct FlavorSceneDetailView: View {
                     FlavorSceneCard(record: record)
                     MiniCueComparison(newText: "Newest: \(record.cue.rawValue)", previousText: FlavorSceneEngine.comparisonCopy(newCue: record.cue, previous: store.records.dropFirst().first))
                     VStack(alignment: .leading, spacing: 8) {
-                        Text("Flavor note").font(.headline)
+                        Text("Flavor scene card").font(.headline)
+                        Text("Occasion: \(record.occasion)")
+                        Text("Ingredients: \(record.availableIngredients)")
+                        Text("Glassware: \(record.glassware.rawValue) • Garnish: \(record.garnish.rawValue)")
+                        Text("Proportions: \(record.proportionCard)")
+                        Text("Serving steps: \(record.servingSteps)")
+                        Text("Guest reaction: \(record.guestReaction)")
+                        Text("Next-time tweak: \(record.nextTimeTweak)")
                         Text(record.careNote.isEmpty ? "No extra note saved." : record.careNote)
                     }
                     HStack {

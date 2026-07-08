@@ -41,6 +41,28 @@ struct FlavorSceneStudioView: View {
                     Text("Manual not-tasted state keeps the Flavor Scene usable and reminds you to retaste before serving.")
                 }
             }
+            Section("Flavor scene constraints") {
+                TextField("Occasion", text: $draft.occasion)
+                    .accessibilityLabel("Flavor Scene occasion")
+                TextField("Available ingredients", text: $draft.availableIngredients, axis: .vertical)
+                    .accessibilityLabel("Available ingredients")
+                Picker("Glassware", selection: $draft.glassware) {
+                    ForEach(Glassware.allCases) { Text($0.rawValue).tag($0) }
+                }
+                Picker("Garnish", selection: $draft.garnish) {
+                    ForEach(Garnish.allCases) { Text($0.rawValue).tag($0) }
+                }
+                TextField("Proportion card", text: $draft.proportionCard, axis: .vertical)
+                    .accessibilityLabel("Flavor Scene proportion card")
+                TextField("Serving steps", text: $draft.servingSteps, axis: .vertical)
+                    .accessibilityLabel("Flavor Scene serving steps")
+            }
+            Section("Guest reaction and next-time tweak") {
+                TextField("Guest reaction memory", text: $draft.guestReaction, axis: .vertical)
+                    .accessibilityLabel("Guest reaction memory")
+                TextField("Next-time tweak", text: $draft.nextTimeTweak, axis: .vertical)
+                    .accessibilityLabel("Next-time tweak")
+            }
             Section("Living-scene observation") {
                 Picker("Observation", selection: $draft.observation) {
                     ForEach(ObservationType.allCases) { Text($0.rawValue).tag($0) }

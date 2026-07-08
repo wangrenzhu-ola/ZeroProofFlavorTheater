@@ -53,8 +53,9 @@ struct FlavorSceneCard: View {
             HStack { Text(record.title).font(.headline); Spacer(); CueBadge(cue: record.cue) }
             Text(record.cueReason).font(.subheadline).foregroundStyle(.secondary)
             HStack {
-                Label(record.flavorStage.rawValue, systemImage: "wineglass")
-                Label(record.observation.rawValue, systemImage: "eye")
+                Label(record.glassware.rawValue, systemImage: "wineglass")
+                Label(record.garnish.rawValue, systemImage: "leaf")
+                Label(record.guestReaction, systemImage: "person.2")
             }.font(.caption).foregroundStyle(.secondary)
         }
         .padding()
@@ -93,7 +94,7 @@ struct PremiumPreviewCard: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 10) {
             HStack { Text("Premium stage themes").font(.headline); Spacer(); Text(isUnlocked ? "Unlocked" : "Additive") }
-            Text("Multiple drinks, longer history, export, and extra stage themes unlock after the free first loop.")
+            Text("Starter scene packs are free; Premium adds local packs, custom hosting boards, export, and extra glassware/garnish themes.")
             Button(isUnlocked ? "Review Premium" : "View Premium", action: openPaywall)
         }
         .padding()

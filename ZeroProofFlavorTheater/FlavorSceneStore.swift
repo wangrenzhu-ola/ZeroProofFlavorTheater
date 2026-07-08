@@ -51,6 +51,14 @@ final class FlavorSceneStore: ObservableObject {
             tartness: incoming.tartness,
             bitterness: incoming.bitterness,
             observation: incoming.observation,
+            occasion: incoming.occasion,
+            availableIngredients: incoming.availableIngredients,
+            glassware: incoming.glassware,
+            garnish: incoming.garnish,
+            proportionCard: incoming.proportionCard,
+            servingSteps: incoming.servingSteps,
+            guestReaction: incoming.guestReaction,
+            nextTimeTweak: incoming.nextTimeTweak,
             careNote: incoming.careNote,
             cue: evaluation.cue,
             cueReason: evaluation.reason,
@@ -73,7 +81,16 @@ final class FlavorSceneStore: ObservableObject {
     }
 
     func exportText(for record: FlavorSceneRecord) -> String {
-        "\(record.title) — \(record.cue.rawValue): \(record.cueReason)"
+        """
+        \(record.title) — \(record.cue.rawValue): \(record.cueReason)
+        Occasion: \(record.occasion)
+        Ingredients: \(record.availableIngredients)
+        Glassware: \(record.glassware.rawValue), garnish: \(record.garnish.rawValue)
+        Proportions: \(record.proportionCard)
+        Serving: \(record.servingSteps)
+        Guest reaction: \(record.guestReaction)
+        Next-time tweak: \(record.nextTimeTweak)
+        """
     }
 
     private func load() {

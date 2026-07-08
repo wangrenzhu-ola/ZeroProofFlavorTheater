@@ -51,7 +51,7 @@ private struct EmptyFlavorSceneView: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 14) {
             Text("Start your first Flavor Scene.").font(.title2.bold())
-            Text("Log a flavor scene, flavor notes, and one guest reaction memory. ZeroProof will render Balanced, Adjust, or Remix without making health or sobriety claims.")
+            Text("Log occasion, available ingredients, glassware, garnish, proportion card, serving steps, and one guest reaction memory. ZeroProof will render Balanced, Adjust, or Remix without making health or sobriety claims.")
             MiniCueComparison(newText: "No saved cue yet", previousText: "Comparison appears after your first save")
             Button("Create Flavor Scene", action: create).buttonStyle(.borderedProminent)
         }

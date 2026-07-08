@@ -1,50 +1,11 @@
-2026-07-08 10:51:23.202 Df ZeroProofFlavorTheater[45347:e9aa7cd] [com.apple.FrontBoard:SceneExtension] <compose failure [shared UUID]>
-2026-07-08 10:51:23.202 Df ZeroProofFlavorTheater[45347:e9aa7f1] [com.apple.UIIntelligenceSupport:xpc] <compose failure [shared UUID]>
-2026-07-08 10:51:23.202 Df ZeroProofFlavorTheater[45347:e9aa7f1] [com.apple.xpc:session] <compose failure [shared UUID]>
-2026-07-08 10:51:23.202 Df ZeroProofFlavorTheater[45347:e9aa7f1] [com.apple.xpc:session] <compose failure [shared UUID]>
-2026-07-08 10:51:23.202 Df ZeroProofFlavorTheater[45347:e9aa7f1] [com.apple.xpc:connection] <compose failure [shared UUID]>
-2026-07-08 10:51:23.202 Df ZeroProofFlavorTheater[45347:e9aa7cd] [com.apple.UIKit:InterfaceStyle] <compose failure [shared UUID]>
-2026-07-08 10:51:23.202 Df ZeroProofFlavorTheater[45347:e9aa7f1] [com.apple.xpc:session] <compose failure [shared UUID]>
-2026-07-08 10:51:23.204 A  ZeroProofFlavorTheater[45347:e9aa7cd] (70B6F0F0-8070-3C26-9224-A5BCB81DE09E) 
-2026-07-08 10:51:23.224 Df ZeroProofFlavorTheater[45347:e9aa7f1] [com.apple.xpc:connection] <compose failure [shared UUID]>
-2026-07-08 10:51:23.270 Df ZeroProofFlavorTheater[45347:e9aa7cd] [PrototypeTools:domain] <compose failure [shared UUID]>
-2026-07-08 10:51:23.296 A  ZeroProofFlavorTheater[45347:e9aa80b] (70B6F0F0-8070-3C26-9224-A5BCB81DE09E) 
-2026-07-08 10:51:23.296 Df ZeroProofFlavorTheater[45347:e9aa80b] [com.apple.xpc:connection] <compose failure [shared UUID]>
-2026-07-08 10:51:23.305 Df ZeroProofFlavorTheater[45347:e9aa80b] [com.apple.xpc:connection] <compose failure [shared UUID]>
-2026-07-08 10:51:23.305 Df ZeroProofFlavorTheater[45347:e9aa80b] [com.apple.storekit:Default] <compose failure [shared UUID]>
-2026-07-08 10:51:23.337 Df ZeroProofFlavorTheater[45347:e9aa7cd] [com.apple.xpc:connection] <compose failure [shared UUID]>
-2026-07-08 10:51:23.341 Df ZeroProofFlavorTheater[45347:e9aa7cd] [com.apple.network:activity] <compose failure [shared UUID]>
-2026-07-08 10:51:23.341 Df ZeroProofFlavorTheater[45347:e9aa7cd] [com.apple.network:activity] <compose failure [shared UUID]>
-2026-07-08 10:51:23.341 Df ZeroProofFlavorTheater[45347:e9aa7cd] [com.apple.network:activity] <compose failure [shared UUID]>
-2026-07-08 10:51:23.341 Df ZeroProofFlavorTheater[45347:e9aa7cd] [com.apple.UIKit:BackgroundTask] <compose failure [shared UUID]>
-2026-07-08 10:51:23.341 Df ZeroProofFlavorTheater[45347:e9aa7cd] [com.apple.UIKit:BackgroundTask] <compose failure [shared UUID]>
-2026-07-08 10:51:23.341 Df ZeroProofFlavorTheater[45347:e9aa7cd] [com.apple.UIKit:BackgroundTask] <compose failure [shared UUID]>
-2026-07-08 10:51:23.341 Df ZeroProofFlavorTheater[45347:e9aa7cd] [com.apple.UIKit:BackgroundTask] <compose failure [shared UUID]>
-2026-07-08 10:51:23.342 Df ZeroProofFlavorTheater[45347:e9aa7cd] [com.apple.UIKit:UpdateScheduler] <compose failure [shared UUID]>
-2026-07-08 10:51:23.342 A  ZeroProofFlavorTheater[45347:e9aa7f0] (70B6F0F0-8070-3C26-9224-A5BCB81DE09E) 
-2026-07-08 10:51:23.342 Df ZeroProofFlavorTheater[45347:e9aa7cd] [com.apple.UIKit:AppLifecycle] <compose failure [shared UUID]>
-2026-07-08 10:51:23.342 Df ZeroProofFlavorTheater[45347:e9aa7cd] [com.apple.UIKit:InterfaceStyle] <compose failure [shared UUID]>
-2026-07-08 10:51:23.343 A  ZeroProofFlavorTheater[45347:e9aa7f0] (70B6F0F0-8070-3C26-9224-A5BCB81DE09E) 
-2026-07-08 10:51:23.344 Df ZeroProofFlavorTheater[45347:e9aa7cd] [com.apple.UIKit:EventDeferring] <compose failure [shared UUID]>
-2026-07-08 10:51:23.344 Df ZeroProofFlavorTheater[45347:e9aa7cd] [com.apple.UIKit:KeyWindow] <compose failure [shared UUID]>
-2026-07-08 10:51:23.344 Df ZeroProofFlavorTheater[45347:e9aa7cd] [com.apple.FrontBoard:SceneExtension] <compose failure [shared UUID]>
-2026-07-08 10:51:23.344 Df ZeroProofFlavorTheater[45347:e9aa7cd] [com.apple.UIKit:InterfaceStyle] <compose failure [shared UUID]>
-2026-07-08 10:51:23.345 Df ZeroProofFlavorTheater[45347:e9aa7cd] [com.apple.UIKit:InterfaceStyle] <compose failure [shared UUID]>
-2026-07-08 10:51:23.345 Df ZeroProofFlavorTheater[45347:e9aa7cd] [com.apple.UIKit:AppLifecycle] <compose failure [shared UUID]>
-2026-07-08 10:51:23.346 Df ZeroProofFlavorTheater[45347:e9aa7cd] [com.apple.UIKit:Application] <compose failure [shared UUID]>
-2026-07-08 10:51:23.346 Df ZeroProofFlavorTheater[45347:e9aa7cd] [com.apple.KeyboardArbiter:Client] <compose failure [shared UUID]>
-2026-07-08 10:51:23.347 Df ZeroProofFlavorTheater[45347:e9aa7cd] [com.apple.UIKit:Application] <compose failure [shared UUID]>
-2026-07-08 10:51:23.347 Df ZeroProofFlavorTheater[45347:e9aa7cd] [com.apple.KeyboardArbiter:Client] <compose failure [shared UUID]>
-2026-07-08 10:51:23.347 Df ZeroProofFlavorTheater[45347:e9aa7cd] [com.apple.xpc:connection] <compose failure [shared UUID]>
-2026-07-08 10:51:23.350 Df ZeroProofFlavorTheater[45347:e9aa7cd] [com.apple.KeyboardArbiter:Client] <compose failure [shared UUID]>
-2026-07-08 10:51:23.353 Df ZeroProofFlavorTheater[45347:e9aa7cd] [com.apple.UIKit:KeyboardSceneDelegate] <compose failure [shared UUID]>
-2026-07-08 10:51:23.353 Df ZeroProofFlavorTheater[45347:e9aa7cd] [com.apple.UIKit:KeyboardSceneDelegate] <compose failure [shared UUID]>
-2026-07-08 10:51:23.353 Df ZeroProofFlavorTheater[45347:e9aa7cd] [com.apple.UIKit:KeyboardArbiterClientLog] <compose failure [shared UUID]>
-2026-07-08 10:51:23.405 Df ZeroProofFlavorTheater[45347:e9aa7cd] [com.apple.network:activity] <compose failure [shared UUID]>
-2026-07-08 10:51:23.405 Df ZeroProofFlavorTheater[45347:e9aa7cd] [com.apple.network:activity] <compose failure [shared UUID]>
-2026-07-08 10:51:23.405 Df ZeroProofFlavorTheater[45347:e9aa7cd] [com.apple.network:activity] <compose failure [shared UUID]>
-2026-07-08 10:51:23.405 Df ZeroProofFlavorTheater[45347:e9aa7cd] [com.apple.network:activity] <compose failure [shared UUID]>
-2026-07-08 10:51:23.405 Df ZeroProofFlavorTheater[45347:e9aa7cd] [com.apple.app_launch_measurement:ApplicationLaunch] <compose failure [shared UUID]>
-2026-07-08 10:51:23.451 A  ZeroProofFlavorTheater[45347:e9aa80b] (70B6F0F0-8070-3C26-9224-A5BCB81DE09E) 
-2026-07-08 10:51:23.677 Df ZeroProofFlavorTheater[45347:e9aa7cd] [com.apple.Accessibility:AXCommon] <compose failure [shared UUID]>
-2026-07-08 10:51:24.306 A  ZeroProofFlavorTheater[45347:e9aa7f1] (70B6F0F0-8070-3C26-9224-A5BCB81DE09E) 
+app=/Users/wangrenzhu/Library/Developer/Xcode/DerivedData/ZeroProofFlavorTheater-czikmeqhrxbvtbharbthorqzsyfa/Build/Products/Debug-iphonesimulator/ZeroProofFlavorTheater.app
+udid=BBB7317F-76C6-4BD5-BF4B-EF6ABAEBA1F8
+2026-07-08T03:28:03Z
+com.zeroproof.flavortheater: 45424
+Detected file type from extension: PNG
+Note: No display specified. Defaulting to display: B6D7B60D-4E9B-40B0-8684-94AD380420E8 (screenID: 1, name: LCD)
+Wrote screenshot to: /Users/wangrenzhu/work/ZeroProofFlavorTheater/evidence/zeroproof_launch.png
+com.zeroproof.flavortheater: 46694
+Detected file type from extension: PNG
+Note: No display specified. Defaulting to display: B6D7B60D-4E9B-40B0-8684-94AD380420E8 (screenID: 1, name: LCD)
+Wrote screenshot to: /Users/wangrenzhu/work/ZeroProofFlavorTheater/evidence/zeroproof_persistence_readback.png

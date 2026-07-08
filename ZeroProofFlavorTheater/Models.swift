@@ -10,6 +10,14 @@ struct FlavorSceneRecord: Identifiable, Codable, Hashable {
     var tartness: Double
     var bitterness: Double
     var observation: ObservationType
+    var occasion: String
+    var availableIngredients: String
+    var glassware: Glassware
+    var garnish: Garnish
+    var proportionCard: String
+    var servingSteps: String
+    var guestReaction: String
+    var nextTimeTweak: String
     var careNote: String
     var cue: FlavorCue
     var cueReason: String
@@ -50,6 +58,22 @@ enum ObservationType: String, CaseIterable, Codable, Identifiable, Hashable {
     var id: String { rawValue }
 }
 
+enum Glassware: String, CaseIterable, Codable, Identifiable, Hashable {
+    case coupe = "Coupe"
+    case highball = "Highball"
+    case rocks = "Rocks glass"
+    case stemless = "Stemless"
+    var id: String { rawValue }
+}
+
+enum Garnish: String, CaseIterable, Codable, Identifiable, Hashable {
+    case citrusWheel = "Citrus wheel"
+    case mintSprig = "Mint sprig"
+    case spiceRim = "Spice rim"
+    case cucumberRibbon = "Cucumber ribbon"
+    var id: String { rawValue }
+}
+
 
 enum FlavorCue: String, CaseIterable, Codable, Identifiable, Hashable {
     case stable = "Balanced"
@@ -75,6 +99,14 @@ struct FlavorSceneDraft: Codable, Hashable {
     var tartness: Double
     var bitterness: Double
     var observation: ObservationType
+    var occasion: String
+    var availableIngredients: String
+    var glassware: Glassware
+    var garnish: Garnish
+    var proportionCard: String
+    var servingSteps: String
+    var guestReaction: String
+    var nextTimeTweak: String
     var careNote: String
     var lastGeneratedCue: FlavorCue?
     var lastGeneratedReason: String?
@@ -88,6 +120,14 @@ struct FlavorSceneDraft: Codable, Hashable {
         tartness: 4.0,
         bitterness: 2.0,
         observation: .guestLoved,
+        occasion: "Backyard dinner",
+        availableIngredients: "sparkling water, citrus, mint, ginger syrup",
+        glassware: .highball,
+        garnish: .citrusWheel,
+        proportionCard: "3 oz sparkling water + 1 oz citrus + 0.5 oz syrup",
+        servingSteps: "Build over ice, stir ten seconds, finish with garnish.",
+        guestReaction: "Guests noticed the bright finish.",
+        nextTimeTweak: "Add one mint slap if the finish feels flat.",
         careNote: "",
         lastGeneratedCue: nil,
         lastGeneratedReason: nil
@@ -102,12 +142,20 @@ struct FlavorSceneDraft: Codable, Hashable {
         tartness = record.tartness
         bitterness = record.bitterness
         observation = record.observation
+        occasion = record.occasion
+        availableIngredients = record.availableIngredients
+        glassware = record.glassware
+        garnish = record.garnish
+        proportionCard = record.proportionCard
+        servingSteps = record.servingSteps
+        guestReaction = record.guestReaction
+        nextTimeTweak = record.nextTimeTweak
         careNote = record.careNote
         lastGeneratedCue = record.cue
         lastGeneratedReason = record.cueReason
     }
 
-    init(id: UUID?, title: String, flavorStage: FlavorStage, readingMode: ReadingMode, sweetness: Double, tartness: Double, bitterness: Double, observation: ObservationType, careNote: String, lastGeneratedCue: FlavorCue?, lastGeneratedReason: String?) {
+    init(id: UUID?, title: String, flavorStage: FlavorStage, readingMode: ReadingMode, sweetness: Double, tartness: Double, bitterness: Double, observation: ObservationType, occasion: String, availableIngredients: String, glassware: Glassware, garnish: Garnish, proportionCard: String, servingSteps: String, guestReaction: String, nextTimeTweak: String, careNote: String, lastGeneratedCue: FlavorCue?, lastGeneratedReason: String?) {
         self.id = id
         self.title = title
         self.flavorStage = flavorStage
@@ -116,6 +164,14 @@ struct FlavorSceneDraft: Codable, Hashable {
         self.tartness = tartness
         self.bitterness = bitterness
         self.observation = observation
+        self.occasion = occasion
+        self.availableIngredients = availableIngredients
+        self.glassware = glassware
+        self.garnish = garnish
+        self.proportionCard = proportionCard
+        self.servingSteps = servingSteps
+        self.guestReaction = guestReaction
+        self.nextTimeTweak = nextTimeTweak
         self.careNote = careNote
         self.lastGeneratedCue = lastGeneratedCue
         self.lastGeneratedReason = lastGeneratedReason

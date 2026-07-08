@@ -21,18 +21,14 @@
   "github_public_repo_url": "https://github.com/wangrenzhu-ola/ZeroProofFlavorTheater",
   "xcodeproj_ref": "/Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater.xcodeproj",
   "commit_refs": [
-    "4e1c2309442abaded7390c0ac71311f279287c1d Patch ZeroProof FinalGate cycle metadata",
-    "a13597f24b0bf80eaa20f939f1f53445242c6bfd Patchback ZeroProof identity and persistence runtime evidence",
-    "5fc48a0ba503bbf411e6b283c23d69582972c439 Patch ZeroProof product identity copy",
-    "cb9e563d1364317970098f1b04439d494f0d74f5 Patchback ZeroProof FinalGate evidence contract",
-    "b3bcda0b79c2991cb39285ab5b9e9fddb29ee974 Record ZeroProof public repo URL",
-    "7e5f7d8e1c4dda44e1609e015e3fe1f719ca78a7 Add ZeroProof build runtime delivery evidence",
-    "8303477bdf18dbd62a7d4a56d2fe5c8d86f8f890 Fix ZeroProof bundle identifier",
-    "8455df46056530e8c71b7ea8c63a5a1c2bcf563a Fix ZeroProof studio visual component",
-    "8b3e4effe42a7ea29b725f1edf26e176aef428f3 Fix ZeroProof visual stage references",
-    "c077f54514f0f3622e948ee1e272bbd96d176a82 Add ZeroProof flavor cue model",
-    "fdc3cbcd857d1429d04e2fc682292e4dc9b1d4aa Fix ZeroProof domain project references",
-    "5394e1f741e3286ce68f262d2cc532a9f43cb96a Build ZeroProof Flavor Theater SwiftUI app"
+    "2b90cab Record RealAcceptance v2 repo-ready evidence",
+    "66f5a6f Refresh ZeroProof metadata to current head",
+    "4e1c230 Patch ZeroProof FinalGate cycle metadata",
+    "a13597f Patchback ZeroProof identity and persistence runtime evidence",
+    "5fc48a0 Patch ZeroProof product identity copy",
+    "cb9e563 Patchback ZeroProof FinalGate evidence contract",
+    "b3bcda0 Record ZeroProof public repo URL",
+    "7e5f7d8 Add ZeroProof build runtime delivery evidence"
   ],
   "build_ios_apps_evidence_refs": [
     "/Users/wangrenzhu/work/ZeroProofFlavorTheater/evidence/source_shape_readback.json",
@@ -160,5 +156,6 @@
   ],
   "real_acceptance_report_ref": "/Users/wangrenzhu/work/ZeroProofFlavorTheater/evidence/real_acceptance_report.json",
   "real_acceptance_status": "repo_ready_for_business_patch",
-  "finalgate_required_by_current_amendment": false
+  "finalgate_required_by_current_amendment": false,
+  "source_regrounding_note": "Patched from flavor-cue shell to PM-grounded host flow: occasion, available ingredients, glassware, garnish, proportion card, serving steps, guest reaction, and next-time tweak are now modelled, editable, saved, exported, tested, and visible in detail/card UI."
 }
