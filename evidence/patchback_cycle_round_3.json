@@ -1,0 +1,20 @@
+{
+  "schema_version": "appfactory.package_patchback_cycle.v1",
+  "round": 3,
+  "status": "patched_pending_finalgate",
+  "patch_commit_sha": "a13597f24b0bf80eaa20f939f1f53445242c6bfd",
+  "diff_review_ref": "/Users/wangrenzhu/work/ZeroProofFlavorTheater/evidence/patchback_diff_review_round_2.json",
+  "changed_source_refs": [
+    "ZeroProofFlavorTheater/HomeView.swift",
+    "ZeroProofFlavorTheater/SettingsPrivacyView.swift",
+    "ZeroProofFlavorTheater/VisualComponents.swift",
+    "ZeroProofFlavorTheater/FlavorSceneStore.swift"
+  ],
+  "verification_refs": [
+    "evidence/xcodebuild_build.log",
+    "evidence/xcodebuild_test.log",
+    "evidence/zeroproof_launch.png",
+    "evidence/zeroproof_persistence_readback.png"
+  ],
+  "blockers": []
+}

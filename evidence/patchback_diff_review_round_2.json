@@ -8,5 +8,8 @@
     "ZeroProofFlavorTheater/VisualComponents.swift",
     "ZeroProofFlavorTheater/FlavorSceneStore.swift"
   ],
-  "blockers": []
+  "blockers": [],
+  "schema_version": "appfactory.patchback_diff_review.v1",
+  "patch_commit_sha": "a13597f24b0bf80eaa20f939f1f53445242c6bfd",
+  "source_branch": "main"
 }

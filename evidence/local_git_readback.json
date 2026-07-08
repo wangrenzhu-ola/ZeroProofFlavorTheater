@@ -1,17 +1,15 @@
 {
   "schema_version": "appfactory.local_git_readback.v1",
   "repo_path": "/Users/wangrenzhu/work/ZeroProofFlavorTheater",
+  "source_branch": "main",
   "branch": "main",
-  "head_before_summary_commit": "b3bcda0b79c2991cb39285ab5b9e9fddb29ee974",
+  "source_commit": "a13597f24b0bf80eaa20f939f1f53445242c6bfd",
+  "head": "a13597f24b0bf80eaa20f939f1f53445242c6bfd",
+  "local_git_head": "a13597f24b0bf80eaa20f939f1f53445242c6bfd",
   "remote_url": "git@github.com:wangrenzhu-ola/ZeroProofFlavorTheater.git",
-  "status_short_before_summary_commit": [
-    "M evidence/xcodebuild_build.log",
-    " M evidence/xcodebuild_test.log",
-    "?? evidence/artifact_sha256.txt",
-    "?? evidence/ios_app_intents_acceptance.json",
-    "?? evidence/scenario_matrix.json",
-    "?? evidence/ultraqa_report.json",
-    "?? evidence/visual_asset_evidence.json"
+  "status_short": [
+    "M evidence/patchback_diff_review_round_2.json",
+    "?? evidence/patchback_cycle_round_3.json"
   ],
   "tracked_files": [
     ".gitignore",
@@ -37,18 +35,26 @@
     "ZeroProofFlavorTheater/ZeroProofFlavorTheaterApp.swift",
     "ZeroProofFlavorTheaterSupport/README.md",
     "ZeroProofFlavorTheaterTests/FlavorSceneEngineTests.swift",
+    "evidence/artifact_sha256.txt",
+    "evidence/ios_app_intents_acceptance.json",
     "evidence/ios_compliance_acceptance.json",
     "evidence/ios_iap_acceptance.json",
+    "evidence/local_git_readback.json",
+    "evidence/patchback_diff_review_round_2.json",
+    "evidence/scenario_matrix.json",
     "evidence/simulator_install_launch.log",
     "evidence/source_shape_readback.json",
+    "evidence/ultraqa_report.json",
+    "evidence/visual_asset_evidence.json",
     "evidence/xcode_runtime_report.json",
     "evidence/xcodebuild_build.log",
     "evidence/xcodebuild_test.log",
     "evidence/zeroproof_launch.png",
+    "evidence/zeroproof_persistence_readback.png",
     "goal_consumption_report.json",
     "ios/package_manifest.json",
     "package_goal_summary.json"
   ],
-  "tracked_file_count": 34,
+  "tracked_file_count": 42,
   "repo_scope": "package_goal_source_only"
 }
