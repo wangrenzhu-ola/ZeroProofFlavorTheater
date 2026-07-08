@@ -25,7 +25,7 @@ struct FlavorSceneStudioView: View {
                 Picker("Drink stage", selection: $draft.flavorStage) {
                     ForEach(FlavorStage.allCases) { Text($0.rawValue).tag($0) }
                 }
-                MiniFlavorStage(stage: draft.flavorStage, cue: previewCue)
+                FlavorSceneGlass(stage: draft.flavorStage, cue: previewCue)
                     .frame(height: 150)
                     .accessibilityLabel("Miniature flavor scene preview")
             }
