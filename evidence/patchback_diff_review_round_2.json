@@ -1,0 +1,12 @@
+{
+  "round": 2,
+  "status": "PASS",
+  "diff_summary": "Patched off-goal aquarium/water/veterinary copy to ZeroProof flavor scene language; regenerated build/test/runtime/persistence evidence.",
+  "changed_source_refs": [
+    "ZeroProofFlavorTheater/HomeView.swift",
+    "ZeroProofFlavorTheater/SettingsPrivacyView.swift",
+    "ZeroProofFlavorTheater/VisualComponents.swift",
+    "ZeroProofFlavorTheater/FlavorSceneStore.swift"
+  ],
+  "blockers": []
+}

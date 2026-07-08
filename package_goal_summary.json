@@ -1,7 +1,7 @@
 {
   "schema_version": "appfactory.package_goal_summary.v1",
   "app_name": "ZeroProof Flavor Theater",
-  "worker_status": "patched_pending_finalgate",
+  "worker_status": "patchback_round2_pending_finalgate",
   "applied_skill_ids": [
     "build-ios-apps",
     "test-xcode",
@@ -21,6 +21,8 @@
   "github_public_repo_url": "https://github.com/wangrenzhu-ola/ZeroProofFlavorTheater",
   "xcodeproj_ref": "/Users/wangrenzhu/work/ZeroProofFlavorTheater/ZeroProofFlavorTheater.xcodeproj",
   "commit_refs": [
+    "5fc48a0ba503bbf411e6b283c23d69582972c439 Patch ZeroProof product identity copy",
+    "cb9e563d1364317970098f1b04439d494f0d74f5 Patchback ZeroProof FinalGate evidence contract",
     "b3bcda0b79c2991cb39285ab5b9e9fddb29ee974 Record ZeroProof public repo URL",
     "7e5f7d8e1c4dda44e1609e015e3fe1f719ca78a7 Add ZeroProof build runtime delivery evidence",
     "8303477bdf18dbd62a7d4a56d2fe5c8d86f8f890 Fix ZeroProof bundle identifier",
@@ -37,7 +39,8 @@
   "test_xcode_evidence_refs": [
     "/Users/wangrenzhu/work/ZeroProofFlavorTheater/evidence/xcodebuild_test.log",
     "/Users/wangrenzhu/work/ZeroProofFlavorTheater/evidence/simulator_install_launch.log",
-    "/Users/wangrenzhu/work/ZeroProofFlavorTheater/evidence/zeroproof_launch.png"
+    "/Users/wangrenzhu/work/ZeroProofFlavorTheater/evidence/zeroproof_launch.png",
+    "/Users/wangrenzhu/work/ZeroProofFlavorTheater/evidence/zeroproof_persistence_readback.png"
   ],
   "xcode_runtime_result_ref": "/Users/wangrenzhu/work/ZeroProofFlavorTheater/evidence/xcode_runtime_report.json",
   "iap_evidence_refs": [
@@ -59,15 +62,18 @@
   "scenario_matrix_ref": "/Users/wangrenzhu/work/ZeroProofFlavorTheater/evidence/scenario_matrix.json",
   "fresh_runtime_evidence_refs": [
     "/Users/wangrenzhu/work/ZeroProofFlavorTheater/evidence/simulator_install_launch.log",
-    "/Users/wangrenzhu/work/ZeroProofFlavorTheater/evidence/zeroproof_launch.png"
+    "/Users/wangrenzhu/work/ZeroProofFlavorTheater/evidence/zeroproof_launch.png",
+    "/Users/wangrenzhu/work/ZeroProofFlavorTheater/evidence/zeroproof_persistence_readback.png"
   ],
   "local_git_readback_ref": "/Users/wangrenzhu/work/ZeroProofFlavorTheater/evidence/local_git_readback.json",
   "visual_asset_evidence_refs": [
     "/Users/wangrenzhu/work/ZeroProofFlavorTheater/evidence/visual_asset_evidence.json",
-    "/Users/wangrenzhu/work/ZeroProofFlavorTheater/evidence/zeroproof_launch.png"
+    "/Users/wangrenzhu/work/ZeroProofFlavorTheater/evidence/zeroproof_launch.png",
+    "/Users/wangrenzhu/work/ZeroProofFlavorTheater/evidence/zeroproof_persistence_readback.png"
   ],
   "visual_runtime_evidence_refs": [
-    "/Users/wangrenzhu/work/ZeroProofFlavorTheater/evidence/zeroproof_launch.png"
+    "/Users/wangrenzhu/work/ZeroProofFlavorTheater/evidence/zeroproof_launch.png",
+    "/Users/wangrenzhu/work/ZeroProofFlavorTheater/evidence/zeroproof_persistence_readback.png"
   ],
   "implemented_requirement_ids": [
     "REQ-CRUD-001",
@@ -115,7 +121,8 @@
       "/Users/wangrenzhu/work/ZeroProofFlavorTheater/evidence/xcodebuild_test.log"
     ],
     "REQ-PERSIST-001": [
-      "/Users/wangrenzhu/work/ZeroProofFlavorTheater/evidence/xcodebuild_test.log"
+      "/Users/wangrenzhu/work/ZeroProofFlavorTheater/evidence/zeroproof_persistence_readback.png",
+      "/Users/wangrenzhu/work/ZeroProofFlavorTheater/evidence/simulator_install_launch.log"
     ],
     "REQ-VIS-001": [
       "/Users/wangrenzhu/work/ZeroProofFlavorTheater/evidence/zeroproof_launch.png"
@@ -129,5 +136,11 @@
   ],
   "product_goal_bundle_ref": "/Users/wangrenzhu/.local/state/app-factory-command-center/agent_gateway/jobs/pm-doc-manual-20260707T154737Z-5docs/PMAgent/product_goal_bundles/goal-002-zeroproof-flavor-theater",
   "contract_consumption_report_ref": "/Users/wangrenzhu/work/ZeroProofFlavorTheater/goal_consumption_report.json",
-  "final_gate_run_count": 2
+  "final_gate_run_count": 2,
+  "patchback_diff_review_refs": [
+    "/Users/wangrenzhu/work/ZeroProofFlavorTheater/evidence/patchback_diff_review_round_2.json"
+  ],
+  "patchback_rounds": [
+    "/Users/wangrenzhu/work/ZeroProofFlavorTheater/evidence/patchback_diff_review_round_2.json"
+  ]
 }
